@@ -9,6 +9,7 @@ import re
 import logging
 import time
 import sys
+import csv
 
 # Configure logging with more detailed format
 logging.basicConfig(
@@ -89,7 +90,6 @@ class WebScraper:
             r'\d{1,2}\s+[มกราคมกุมภาพันธ์มีนาคมเมษายนพฤษภาคมมิถุนายนกรกฎาคมสิงหาคมกันยายนตุลาคมพฤศจิกายนธันวาคม]\s+\d{4}'
         ]
         
-        # Try to find date in various attributes and text
         for pattern in date_patterns:
             if element:
                 # Check attributes
@@ -159,166 +159,166 @@ class WebScraper:
 
         return self.clean_content(content) or "ไม่พบเนื้อหา"
 
-    def parse_page(self, html):
-        """Parse page content with improved accuracy"""
-        if not html:
-            return []
-
-        soup = BeautifulSoup(html, "html.parser")
-        articles = []
-
-        # Multiple selectors for article containers
-        article_selectors = [
-            "article",
-            ".post",
-            ".blog-post",
-            ".news-item"
-        ]
-
-        for selector in article_selectors:
-            for article in soup.select(selector):
-                try:
-                    # Extract title
-                    title_selectors = [
-                        "h2.entry-title a",
-                        ".post-title a",
-                        "h2 a",
-                        ".entry-header h2 a"
-                    ]
-                    
-                    title_element = None
-                    for title_selector in title_selectors:
-                        title_element = article.select_one(title_selector)
-                        if title_element:
-                            break
-
-                    if not title_element:
-                        continue
-
-                    headline = title_element.get_text(strip=True)
-                    link = self.clean_url(title_element.get('href', ''))
-                    
-                    if not link:
-                        continue
-
-                    # Extract date
-                    date_selectors = [
-                        "time",
-                        ".published",
-                        ".post-date",
-                        ".entry-date"
-                    ]
-                    
-                    date = None
-                    for date_selector in date_selectors:
-                        date_element = article.select_one(date_selector)
-                        if date_element:
-                            date = self.extract_date(date_element)
-                            if date:
-                                break
-
-                    if not date:
-                        continue
-
-                    # Fetch full article content
-                    content = self.fetch_article_content(link)
-                    
-                    articles.append({
-                        "Headline": headline,
-                        "Link": link,
-                        "Date": date,
-                        "Content": content
-                    })
-
-                except Exception as e:
-                    logging.error(f"Error parsing article: {e}")
-                    continue
-
-        return articles
-
-    def scrape_website(self, num_pages=5):
-        """Scrape website with improved pagination handling"""
-        all_articles = []
-        one_month_ago = datetime.now() - timedelta(days=30)
+    def extract_main_page_content(self, soup):
+        """Extract content from the main page"""
+        main_content = []
         
-        for page in range(5, num_pages + 1):
-            try:
-                # Handle different pagination URL formats
-                if page > 1:
-                    page_url = f"{self.base_url}page/{page}"
-                else:
-                    page_url = self.base_url
-
-                logging.info(f"Scraping page {page}: {page_url}")
-                
-                html = self.fetch_html(page_url)
-                if not html:
-                    logging.warning(f"No HTML content found for page {page}")
-                    break
-
-                articles = self.parse_page(html)
-                
-                # Filter articles within last month
-                filtered_articles = [
-                    article for article in articles
-                    if article["Date"] and datetime.strptime(article["Date"], "%Y-%m-%d") > one_month_ago
-                ]
-
-                if not filtered_articles:
-                    logging.info(f"No recent articles found on page {page}")
-                    break
-
-                all_articles.extend(filtered_articles)
-                logging.info(f"Found {len(filtered_articles)} articles on page {page}")
-
-            except Exception as e:
-                logging.error(f"Error processing page {page}: {e}")
+        # Try different selectors for main page content
+        main_selectors = [
+            ".site-main",
+            "#primary",
+            ".main-content",
+            ".content-area"
+        ]
+        
+        for selector in main_selectors:
+            main_section = soup.select_one(selector)
+            if main_section:
+                text = main_section.get_text(strip=True)
+                if text:
+                    main_content.append({"type": "Main Page Content", "content": self.clean_content(text)})
                 break
+        
+        return main_content
 
-        return all_articles
+    def parse_single_page(self, page_number):
+        """Parse all content from a specific page number"""
+        page_url = f"{self.base_url}page/{page_number}" if page_number > 1 else self.base_url
+        logging.info(f"Scraping page {page_number}: {page_url}")
+        
+        html = self.fetch_html(page_url)
+        if not html:
+            logging.error(f"Failed to fetch page {page_number}")
+            return []
+        
+        soup = BeautifulSoup(html, "html.parser")
+        all_content = []
+        
+        # First, get the main page content
+        main_content = self.extract_main_page_content(soup)
+        all_content.extend(main_content)
+        
+        # Then get all article links on the page
+        article_links = []
+        link_selectors = [
+            "article a",
+            ".post-title a",
+            ".entry-title a",
+            ".read-more-link"
+        ]
+        
+        for selector in link_selectors:
+            links = soup.select(selector)
+            for link in links:
+                url = self.clean_url(link.get('href'))
+                if url and url not in [item.get('Link') for item in article_links]:
+                    article_links.append({
+                        'Link': url,
+                        'Title': link.get_text(strip=True)
+                    })
+        
+        # Process each article
+        for article in article_links:
+            try:
+                logging.info(f"Processing article: {article['Title']}")
+                
+                content = self.fetch_article_content(article['Link'])
+                date = None
+                
+                # Try to get the date from the article page
+                article_html = self.fetch_html(article['Link'])
+                if article_html:
+                    article_soup = BeautifulSoup(article_html, 'html.parser')
+                    date_element = article_soup.select_one("time, .published, .post-date")
+                    if date_element:
+                        date = self.extract_date(date_element)
+                
+                all_content.append({
+                    "type": "Article",
+                    "Headline": article['Title'],
+                    "Link": article['Link'],
+                    "Date": date or datetime.now().strftime("%Y-%m-%d"),
+                    "Content": content
+                })
+                
+                # Add a small delay between articles
+                time.sleep(1)
+                
+            except Exception as e:
+                logging.error(f"Error processing article {article['Link']}: {e}")
+                continue
+        
+        return all_content
 
-def save_to_csv(data, filename="scraped_articles.csv"):
+def save_to_csv(data, page_number, filename_prefix="scraped_content"):
     """Save data to CSV with proper Thai language encoding"""
     if not data:
         logging.warning("No data to save")
         return
 
     try:
-        df = pd.DataFrame(data)
+        # Create a proper DataFrame structure
+        processed_data = []
+        for item in data:
+            if item['type'] == 'Main Page Content':
+                processed_data.append({
+                    'Type': 'Main Page',
+                    'Headline': f'Page {page_number} Main Content',
+                    'Link': f"{item.get('Link', 'N/A')}",
+                    'Date': datetime.now().strftime("%Y-%m-%d"),
+                    'Content': item['content']
+                })
+            else:
+                processed_data.append({
+                    'Type': 'Article',
+                    'Headline': item['Headline'],
+                    'Link': item['Link'],
+                    'Date': item['Date'],
+                    'Content': item['Content']
+                })
+
+        df = pd.DataFrame(processed_data)
         
         # Ensure output directory exists
         os.makedirs('output', exist_ok=True)
+        
+        # Create filename with page number
+        filename = f"{filename_prefix}_page_{page_number}.csv"
         output_path = os.path.join('output', filename)
         
-        # Save with Thai language support
+        # Save with Thai language support using the correct CSV quoting
         df.to_csv(
             output_path,
             index=False,
-            encoding='utf-8-sig',  # Use UTF-8 with BOM for Thai support
-            quoting=pd.io.common.csv.QUOTE_ALL,
+            encoding='utf-8-sig',
+            quoting=csv.QUOTE_ALL,
             escapechar='\\',
             errors='replace'
         )
         
-        logging.info(f"Successfully saved {len(data)} articles to {output_path}")
+        logging.info(f"Successfully saved {len(processed_data)} items to {output_path}")
     except Exception as e:
         logging.error(f"Error saving to CSV: {e}")
 
 def main():
     try:
-        scraper = WebScraper()
-        news_url = urljoin(scraper.base_url, "pr-news/")
+        # Get page number from user input
+        page_number = int(input("Enter the page number to scrape (1 for main page): "))
+        
+        news_url = urljoin("https://www.innwhy.com/", "pr-news/")
         scraper = WebScraper(news_url)
         
-        logging.info("Starting web scraping process...")
-        scraped_data = scraper.scrape_website()
+        logging.info(f"Starting web scraping process for page {page_number}...")
+        scraped_data = scraper.parse_single_page(page_number)
         
         if scraped_data:
-            save_to_csv(scraped_data)
-            logging.info("Scraping process completed successfully")
+            save_to_csv(scraped_data, page_number)
+            logging.info(f"Scraping process completed successfully for page {page_number}")
         else:
-            logging.warning("No articles were scraped")
+            logging.warning(f"No content was scraped from page {page_number}")
             
+    except ValueError:
+        logging.error("Please enter a valid page number")
     except Exception as e:
         logging.error(f"Main process error: {e}")
 
