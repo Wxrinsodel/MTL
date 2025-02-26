@@ -1,0 +1,542 @@
+2025-02-23 15:40:59,107 - INFO - Starting web scraping process...
+2025-02-23 15:40:59,107 - INFO - Scraping page 5: https://www.innwhy.com/pr-news/page/5
+2025-02-23 15:41:00,328 - INFO - No recent articles found on page 5
+2025-02-23 15:41:00,328 - WARNING - No articles were scraped
+2025-02-23 15:41:55,157 - INFO - Starting web scraping process for page 2...
+2025-02-23 15:41:55,158 - INFO - Scraping page 2: https://www.innwhy.com/pr-news/page/2
+2025-02-23 15:41:56,446 - INFO - Processing article: 
+2025-02-23 15:42:01,282 - INFO - Processing article: Byทีมงาน INN WHY?
+2025-02-23 15:42:04,603 - INFO - Processing article: 18/02/2025
+2025-02-23 15:42:07,803 - INFO - Processing article: 
+2025-02-23 15:42:11,030 - INFO - Processing article: 
+2025-02-23 15:42:14,258 - INFO - Processing article: 
+2025-02-23 15:42:19,098 - INFO - Processing article: 
+2025-02-23 15:42:23,910 - INFO - Processing article: 
+2025-02-23 15:42:28,828 - INFO - Processing article: 
+2025-02-23 15:42:32,041 - INFO - Processing article: 17/02/2025
+2025-02-23 15:42:35,250 - INFO - Processing article: 
+2025-02-23 15:42:38,437 - INFO - Processing article: 
+2025-02-23 15:42:43,255 - INFO - Processing article: 
+2025-02-23 15:42:48,079 - INFO - Processing article: 
+2025-02-23 15:42:52,873 - INFO - Processing article: 
+2025-02-23 15:42:57,604 - INFO - Processing article: 
+2025-02-23 15:43:02,314 - INFO - Processing article: 
+2025-02-23 15:43:07,130 - INFO - Processing article: 
+2025-02-23 15:43:11,952 - ERROR - Error saving to CSV: module 'pandas.io.common' has no attribute 'csv'
+2025-02-23 15:43:11,953 - INFO - Scraping process completed successfully for page 2
+2025-02-23 15:45:07,504 - INFO - Starting web scraping process for page 1...
+2025-02-23 15:45:07,505 - INFO - Scraping page 1: https://www.innwhy.com/pr-news/
+2025-02-23 15:45:08,813 - INFO - Processing article: 
+2025-02-23 15:45:12,053 - INFO - Processing article: Byทีมงาน INN WHY?
+2025-02-23 15:45:15,367 - INFO - Processing article: 22/02/2025
+2025-02-23 15:45:18,560 - INFO - Processing article: 
+2025-02-23 15:45:21,762 - INFO - Processing article: 21/02/2025
+2025-02-23 15:45:24,944 - INFO - Processing article: 
+2025-02-23 15:45:28,143 - INFO - Processing article: 
+2025-02-23 15:45:31,348 - INFO - Processing article: 20/02/2025
+2025-02-23 15:45:34,531 - INFO - Processing article: 
+2025-02-23 15:45:37,720 - INFO - Processing article: 
+2025-02-23 15:45:40,933 - INFO - Processing article: 
+2025-02-23 15:45:44,155 - INFO - Processing article: 
+2025-02-23 15:45:47,366 - INFO - Processing article: 
+2025-02-23 15:45:50,575 - INFO - Processing article: 
+2025-02-23 15:45:53,776 - INFO - Processing article: 
+2025-02-23 15:45:58,563 - INFO - Processing article: 
+2025-02-23 15:46:03,422 - INFO - Processing article: 
+2025-02-23 15:46:06,673 - INFO - Processing article: 19/02/2025
+2025-02-23 15:46:09,863 - INFO - Processing article: 
+2025-02-23 15:46:13,082 - INFO - Processing article: 
+2025-02-23 15:46:16,294 - INFO - Successfully saved 20 items to output/scraped_content_page_1.csv
+2025-02-23 15:46:16,294 - INFO - Scraping process completed successfully for page 1
+2025-02-24 09:16:59,329 - INFO - Starting web scraping process for page 1...
+2025-02-24 09:16:59,329 - INFO - Scraping page 1: https://www.innwhy.com/pr-news/
+2025-02-24 09:17:00,659 - INFO - Processing article: 
+2025-02-24 09:17:03,939 - INFO - Processing article: Byทีมงาน INN WHY?
+2025-02-24 09:17:08,819 - INFO - Processing article: 22/02/2025
+2025-02-24 09:17:11,998 - INFO - Processing article: 
+2025-02-24 09:17:16,212 - INFO - Processing article: 21/02/2025
+2025-02-24 09:17:19,432 - INFO - Processing article: 
+2025-02-24 09:17:22,674 - INFO - Processing article: 
+2025-02-24 09:17:25,906 - INFO - Processing article: 20/02/2025
+2025-02-24 09:17:29,109 - INFO - Processing article: 
+2025-02-24 09:17:32,312 - INFO - Processing article: 
+2025-02-24 09:17:35,515 - INFO - Processing article: 
+2025-02-24 09:17:38,718 - INFO - Processing article: 
+2025-02-24 09:17:41,919 - INFO - Processing article: 
+2025-02-24 09:17:45,107 - INFO - Processing article: 
+2025-02-24 09:17:48,304 - INFO - Processing article: 
+2025-02-24 09:17:53,972 - INFO - Processing article: 
+2025-02-24 09:17:58,794 - INFO - Processing article: 
+2025-02-24 09:18:01,976 - INFO - Processing article: 19/02/2025
+2025-02-24 09:18:05,147 - INFO - Processing article: 
+2025-02-24 09:18:08,378 - INFO - Processing article: 
+2025-02-24 09:18:11,607 - INFO - Successfully saved 20 items to output/scraped_content_page_1.csv
+2025-02-24 09:18:11,607 - INFO - Scraping process completed successfully for page 1
+2025-02-24 19:17:36,682 - INFO - Starting web scraping process for page 3...
+2025-02-24 19:17:36,683 - INFO - Scraping page 3: https://www.innwhy.com/pr-news/page/3
+2025-02-24 19:17:42,162 - INFO - Processing article: 
+2025-02-24 19:17:47,511 - INFO - Processing article: Byทีมงาน INN WHY?
+2025-02-24 19:17:52,901 - INFO - Processing article: 17/02/2025
+2025-02-24 19:17:56,083 - INFO - Processing article: 
+2025-02-24 19:17:59,334 - INFO - Processing article: 
+2025-02-24 19:18:04,595 - INFO - Processing article: 
+2025-02-24 19:18:07,810 - INFO - Processing article: 
+2025-02-24 19:18:13,184 - INFO - Processing article: 14/02/2025
+2025-02-24 19:18:18,460 - INFO - Processing article: 
+2025-02-24 19:18:23,730 - INFO - Processing article: 
+2025-02-24 19:18:28,996 - INFO - Processing article: 
+2025-02-24 19:18:34,410 - INFO - Processing article: 
+2025-02-24 19:18:39,660 - INFO - Processing article: 
+2025-02-24 19:18:44,976 - INFO - Processing article: 13/02/2025
+2025-02-24 19:18:50,372 - INFO - Processing article: 
+2025-02-24 19:18:55,634 - INFO - Processing article: 
+2025-02-24 19:19:00,966 - INFO - Processing article: 
+2025-02-24 19:19:06,191 - INFO - Processing article: 
+2025-02-24 19:19:11,490 - INFO - Processing article: 
+2025-02-24 19:19:17,104 - INFO - Successfully saved 19 items to output/scraped_content_page_3.csv
+2025-02-24 19:19:17,104 - INFO - Scraping process completed successfully for page 3
+2025-02-24 19:39:11,370 - INFO - Starting web scraping process...
+2025-02-24 19:39:11,370 - INFO - Scraping page 1: https://www.innwhy.com/pr-news/
+2025-02-24 19:39:12,620 - INFO - No recent articles found on page 1
+2025-02-24 19:39:12,620 - WARNING - No articles were scraped
+2025-02-24 19:43:58,099 - INFO - Starting scrape of PR news section: https://www.innwhy.com/pr-news/
+2025-02-24 19:43:58,100 - INFO - Starting scrape, looking for articles newer than 2025-01-25 19:43:58.100103
+2025-02-24 19:43:58,100 - INFO - Scraping page 1: https://www.innwhy.com/pr-news/
+2025-02-24 19:43:58,100 - ERROR - Error processing page 1: 'WebScraper' object has no attribute 'fetch_html'
+2025-02-24 19:43:58,100 - INFO - No articles found in PR news section, trying main page
+2025-02-24 19:43:58,100 - INFO - Starting scrape, looking for articles newer than 2025-01-25 19:43:58.100533
+2025-02-24 19:43:58,100 - INFO - Scraping page 1: https://www.innwhy.com/
+2025-02-24 19:43:58,100 - ERROR - Error processing page 1: 'WebScraper' object has no attribute 'fetch_html'
+2025-02-24 19:43:58,100 - WARNING - No articles were scraped
+2025-02-24 19:44:04,255 - INFO - Starting scrape of PR news section: https://www.innwhy.com/pr-news/
+2025-02-24 19:44:04,255 - INFO - Starting scrape, looking for articles newer than 2025-01-25 19:44:04.255477
+2025-02-24 19:44:04,255 - INFO - Scraping page 1: https://www.innwhy.com/pr-news/
+2025-02-24 19:44:04,255 - ERROR - Error processing page 1: 'WebScraper' object has no attribute 'fetch_html'
+2025-02-24 19:44:04,255 - INFO - No articles found in PR news section, trying main page
+2025-02-24 19:44:04,255 - INFO - Starting scrape, looking for articles newer than 2025-01-25 19:44:04.255978
+2025-02-24 19:44:04,256 - INFO - Scraping page 1: https://www.innwhy.com/
+2025-02-24 19:44:04,256 - ERROR - Error processing page 1: 'WebScraper' object has no attribute 'fetch_html'
+2025-02-24 19:44:04,256 - WARNING - No articles were scraped
+2025-02-24 19:47:00,594 - INFO - Starting scrape of PR news section: https://www.innwhy.com/pr-news/
+2025-02-24 19:47:00,595 - INFO - Scraping page 1: https://www.innwhy.com/pr-news/
+2025-02-24 19:47:01,784 - INFO - Found 15 potential articles
+2025-02-24 19:47:01,802 - INFO - Scraping page 2: https://www.innwhy.com/pr-news/page/2
+2025-02-24 19:47:07,092 - INFO - Found 15 potential articles
+2025-02-24 19:47:07,111 - INFO - No articles found in PR news section, trying main page
+2025-02-24 19:47:07,111 - INFO - Scraping page 1: https://www.innwhy.com/
+2025-02-24 19:47:11,073 - INFO - Found 38 potential articles
+2025-02-24 19:47:11,103 - INFO - Scraping page 2: https://www.innwhy.com/page/2
+2025-02-24 19:47:16,899 - INFO - Found 38 potential articles
+2025-02-24 19:47:16,927 - WARNING - No articles were scraped
+2025-02-24 19:59:13,012 - INFO - Starting scrape of PR news section: https://www.innwhy.com/pr-news/
+2025-02-24 19:59:13,012 - INFO - Scraping page 1: https://www.innwhy.com/pr-news/
+2025-02-24 19:59:15,311 - INFO - Successfully parsed article: สถาบันประกันภัยไทย เดินสาย จ.ขอนแก่น สร้างความร่วมมือด้านการพัฒนาบุคลากรประกันภัย ผลักดันการเรียนรู้ผ่าน LMS
+2025-02-24 19:59:16,421 - INFO - Successfully parsed article: ทิพยประกันชีวิต ร่วมกิจกรรมCSR มูลนิธิบ้านครูบุญชูเพื่อเด็กพิเศษ
+2025-02-24 19:59:17,522 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดงาน “DM KICK OFF 2025”  ผสานพลังตัวแทนฝ่ายขาย Direct Marketing ทั่วประเทศ
+2025-02-24 19:59:18,641 - INFO - Successfully parsed article: ที ไลฟ์ ประกันชีวิต เปิดตัวความร่วมมือกับ MKP LIFE BROKER รุกขยายช่องทางขายประกันชีวิต
+2025-02-24 19:59:19,753 - INFO - Successfully parsed article: OCEAN LIFE  ก้าวสู่ปีที่ 76 ชูแนวคิด Love Mindset – Love Solution  ใช้ความรักนำไปพบทุกคำตอบของการใช้ชีวิตอย่างมั่นคง มั่นใจ และมีความสุข
+2025-02-24 19:59:20,863 - INFO - Successfully parsed article: กรุงไทย – แอกซ่า ประกันชีวิต จัดกิจกรรมลูกค้าสุดเอ็กซ์คลูซีฟ “The First Ultimate Big Fan by กรุงไทย-แอกซ่า ประกันชีวิต” ปีที่ 4
+2025-02-24 19:59:21,968 - INFO - Successfully parsed article: ประกันภัยไทยวิวัฒน์ เดินหน้าขยายพันธมิตรด้านสุขภาพ  จับมือ ร้านยากรุงเทพ มอบสิทธิประโยชน์ลูกค้า
+2025-02-24 19:59:23,087 - INFO - Successfully parsed article: ฟอลคอนประกันภัย มอบสินไหมทดแทนประกันภัยอุบัติเหตุส่วนบุคคล พร้อมเพิ่มทุนคุ้มครอง 25% โดยไม่มีค่าใช้จ่าย รวม 5 ล้านบาท
+2025-02-24 19:59:24,194 - INFO - Successfully parsed article: โตเกียวมารีนประกันชีวิต เบี้ยตัวแทนแตะ 6.28 หมื่นล้าน ปี 67 พลิกทำกำไร 364 ล้าน หลังชะลอประกันฯเด็ก สปีดเพิ่มขุนพล 2,000 คน ปลายปีนี้คาดทะลุ 10,000 ล้าน
+2025-02-24 19:59:25,324 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดงาน BKI Staff Party 2025 ในธีม Building Excellence รวมพลังเพื่อสร้างความเป็นเลิศที่โดดเด่นและแตกต่าง
+2025-02-24 19:59:28,527 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดกิจกรรม “โครงการอบอุ่นกับเมืองไทยประกันชีวิต” มอบผ้าห่มอัพไซคลิง แก่โรงเรียนไทยรัฐวิทยา79 (บ้านหนองอาบช้าง)  และโรงเรียนบ้านน้ำตกแม่กลาง จ. เชียงใหม่
+2025-02-24 19:59:31,735 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนนิทรรศการเพื่อเด็กและครอบครัว  เรียนรู้การโอบรับความหลากหลาย ผ่านดนตรีและศิลปะ
+2025-02-24 19:59:34,973 - INFO - Successfully parsed article: BLA กวาดกำไรปี 67 รวม 3,623 ล้านบาท โตพุ่ง 42% เคาะจ่ายปันผลปี 2567 หุ้นละ 0.68 บาท รวม 1,159 ล้านบาท
+2025-02-24 19:59:38,143 - INFO - Successfully parsed article: ธนชาตประกันภัย มอบทุนการศึกษาโรงเรียนกายอุปกรณ์สิรินธรฯ ร่วมผลิตนักกายอุปกรณ์คุณภาพ ต่อเนื่องปีที่ 11 ยกระดับชีวิตให้ผู้พิการ
+2025-02-24 19:59:39,261 - INFO - Successfully parsed article: อลิอันซ์ อยุธยา จัดงาน “MY STYLE CLUB Special” มอบความรู้การลงทุนสำหรับลูกค้าคนพิเศษ
+2025-02-24 19:59:40,385 - INFO - Successfully parsed article: สถาบันประกันภัยไทย เดินสาย จ.ขอนแก่น สร้างความร่วมมือด้านการพัฒนาบุคลากรประกันภัย ผลักดันการเรียนรู้ผ่าน LMS
+2025-02-24 19:59:41,510 - INFO - Successfully parsed article: ทิพยประกันชีวิต ร่วมกิจกรรมCSR มูลนิธิบ้านครูบุญชูเพื่อเด็กพิเศษ
+2025-02-24 19:59:42,649 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดงาน “DM KICK OFF 2025”  ผสานพลังตัวแทนฝ่ายขาย Direct Marketing ทั่วประเทศ
+2025-02-24 19:59:43,770 - INFO - Successfully parsed article: ที ไลฟ์ ประกันชีวิต เปิดตัวความร่วมมือกับ MKP LIFE BROKER รุกขยายช่องทางขายประกันชีวิต
+2025-02-24 19:59:44,873 - INFO - Successfully parsed article: OCEAN LIFE  ก้าวสู่ปีที่ 76 ชูแนวคิด Love Mindset – Love Solution  ใช้ความรักนำไปพบทุกคำตอบของการใช้ชีวิตอย่างมั่นคง มั่นใจ และมีความสุข
+2025-02-24 19:59:46,002 - INFO - Successfully parsed article: กรุงไทย – แอกซ่า ประกันชีวิต จัดกิจกรรมลูกค้าสุดเอ็กซ์คลูซีฟ “The First Ultimate Big Fan by กรุงไทย-แอกซ่า ประกันชีวิต” ปีที่ 4
+2025-02-24 19:59:47,111 - INFO - Successfully parsed article: ประกันภัยไทยวิวัฒน์ เดินหน้าขยายพันธมิตรด้านสุขภาพ  จับมือ ร้านยากรุงเทพ มอบสิทธิประโยชน์ลูกค้า
+2025-02-24 19:59:48,235 - INFO - Successfully parsed article: ฟอลคอนประกันภัย มอบสินไหมทดแทนประกันภัยอุบัติเหตุส่วนบุคคล พร้อมเพิ่มทุนคุ้มครอง 25% โดยไม่มีค่าใช้จ่าย รวม 5 ล้านบาท
+2025-02-24 19:59:49,347 - INFO - Successfully parsed article: โตเกียวมารีนประกันชีวิต เบี้ยตัวแทนแตะ 6.28 หมื่นล้าน ปี 67 พลิกทำกำไร 364 ล้าน หลังชะลอประกันฯเด็ก สปีดเพิ่มขุนพล 2,000 คน ปลายปีนี้คาดทะลุ 10,000 ล้าน
+2025-02-24 19:59:50,462 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดงาน BKI Staff Party 2025 ในธีม Building Excellence รวมพลังเพื่อสร้างความเป็นเลิศที่โดดเด่นและแตกต่าง
+2025-02-24 19:59:51,572 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดกิจกรรม “โครงการอบอุ่นกับเมืองไทยประกันชีวิต” มอบผ้าห่มอัพไซคลิง แก่โรงเรียนไทยรัฐวิทยา79 (บ้านหนองอาบช้าง)  และโรงเรียนบ้านน้ำตกแม่กลาง จ. เชียงใหม่
+2025-02-24 19:59:52,681 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนนิทรรศการเพื่อเด็กและครอบครัว  เรียนรู้การโอบรับความหลากหลาย ผ่านดนตรีและศิลปะ
+2025-02-24 19:59:53,794 - INFO - Successfully parsed article: BLA กวาดกำไรปี 67 รวม 3,623 ล้านบาท โตพุ่ง 42% เคาะจ่ายปันผลปี 2567 หุ้นละ 0.68 บาท รวม 1,159 ล้านบาท
+2025-02-24 19:59:54,901 - INFO - Successfully parsed article: ธนชาตประกันภัย มอบทุนการศึกษาโรงเรียนกายอุปกรณ์สิรินธรฯ ร่วมผลิตนักกายอุปกรณ์คุณภาพ ต่อเนื่องปีที่ 11 ยกระดับชีวิตให้ผู้พิการ
+2025-02-24 19:59:55,995 - INFO - Successfully parsed article: อลิอันซ์ อยุธยา จัดงาน “MY STYLE CLUB Special” มอบความรู้การลงทุนสำหรับลูกค้าคนพิเศษ
+2025-02-24 19:59:56,058 - INFO - Found 30 potential articles on page 1
+2025-02-24 19:59:56,059 - INFO - Kept 30 articles within date range on page 1
+2025-02-24 19:59:56,059 - INFO - Scraping page 2: https://www.innwhy.com/pr-news/page/2
+2025-02-24 20:00:00,462 - INFO - Successfully parsed article: ฟิลลิปประกันชีวิตจัดทริปสุดพิเศษ “จิบชา ชิมไวน์ ดินเนอร์ปาร์ตี้” มอบรางวัลแทนคำขอบคุณตัวแทนยอดเยี่ยม
+2025-02-24 20:00:01,575 - INFO - Successfully parsed article: สมาคมประกันชีวิตไทยเผยเบี้ยประกันภัยรับรวม ปี 67 เติบโต 3.23% คาดการณ์ ปี 68 เติบโต 2-3 %
+2025-02-24 20:00:04,873 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต ใส่ใจพนักงาน จัดแคมเปญต้อนรับวันวาเลนไทน์  ส่งต่อความสุขและความอบอุ่นทั่วทั้งองค์กร
+2025-02-24 20:00:08,065 - INFO - Successfully parsed article: กรุงไทย–แอกซ่า ประกันชีวิต เปิดตัวแคมเปญใหม่ เชิญชวนทุกคน “มาร่วมสร้างและปกป้องความฝันของคุณ” ผ่าน AXA Bucket List.ai
+2025-02-24 20:00:09,177 - INFO - Successfully parsed article: “โรงเรียนคำพ่อสอน” : ต้นแบบแห่งความสำเร็จ สร้างเด็กดี ลดพฤติกรรมเสี่ยง ขยายผลจากระดับประถมสู่มัธยม
+2025-02-24 20:00:12,350 - INFO - Successfully parsed article: ทิพยประกันภัย เปิดตัวบริการทางการเงิน “PayLater” ผ่าน TIPINSURE.COM
+2025-02-24 20:00:15,630 - INFO - Successfully parsed article: เอไอเอ ประเทศไทย จัดงานมอบรางวัล “AIA Hospital Awards 2024” เชิดชูเกียรติสุดยอดโรงพยาบาลคู่สัญญาที่ได้ร่วมส่งมอบบริการทางการแพทย์อันยอดเยี่ยมให้แก่ลูกค้าทั่วประเทศ
+2025-02-24 20:00:18,801 - INFO - Successfully parsed article: TQM ฉลองครบรอบ 72 ปี กับแคมเปญ “ประกันสำคัญเหมือนอาหารเช้า รู้ว่าดี แต่ก็ละเลย”
+2025-02-24 20:00:21,976 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดสัมมนาให้ความรู้แก่ลูกค้าเพื่อให้เข้าใจถึงความสำคัญของการกำหนดทุนประกันภัยอย่างเหมาะสม
+2025-02-24 20:00:25,150 - INFO - Successfully parsed article: แอกซ่า ส่งเสริมการตระหนักรู้ พร้อมสนับสนุนการป้องกันโรคมะเร็งในประเทศไทย
+2025-02-24 20:00:28,434 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต เปิดตัวบริการเสริมด้านสุขภาพใหม่ “BLA Health Butler” “ใส่ใจ” พาผู้สูงวัยไปหาหมอ
+2025-02-24 20:00:31,704 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดกิจกรรม CSR ทำก้อนเห็ดมอบให้กับโรงเรียนในเขตอำเภอปากช่อง จังหวัดนครราชสีมา
+2025-02-24 20:00:34,879 - INFO - Successfully parsed article: “TIPปันรัก #6 LOVE ON TRACK ฉึกฉักไปตามราง เดินทางไปตามรัก”
+2025-02-24 20:00:38,056 - INFO - Successfully parsed article: คณะการท่องเที่ยวฯ DPU จัดแข่งขันทักษะท่องเที่ยว-โรงแรม-อาหาร ครั้งที่ 1 ภายใต้หัวข้อ “Soft Power ท่องเที่ยวเสน่ห์ไทย” วอศ.เพชรบุรี -ร.ร.สมุทรสาครฯ คว้าแชมป์ไปครอง
+2025-02-24 20:00:41,237 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนเครื่องอุปโภค – บริโภค  “หอบรักมาเติมฝัน ปันสุขเพื่อเด็กแม่สะเรียง”
+2025-02-24 20:00:42,384 - INFO - Successfully parsed article: ฟิลลิปประกันชีวิตจัดทริปสุดพิเศษ “จิบชา ชิมไวน์ ดินเนอร์ปาร์ตี้” มอบรางวัลแทนคำขอบคุณตัวแทนยอดเยี่ยม
+2025-02-24 20:00:43,499 - INFO - Successfully parsed article: สมาคมประกันชีวิตไทยเผยเบี้ยประกันภัยรับรวม ปี 67 เติบโต 3.23% คาดการณ์ ปี 68 เติบโต 2-3 %
+2025-02-24 20:00:44,601 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต ใส่ใจพนักงาน จัดแคมเปญต้อนรับวันวาเลนไทน์  ส่งต่อความสุขและความอบอุ่นทั่วทั้งองค์กร
+2025-02-24 20:00:45,709 - INFO - Successfully parsed article: กรุงไทย–แอกซ่า ประกันชีวิต เปิดตัวแคมเปญใหม่ เชิญชวนทุกคน “มาร่วมสร้างและปกป้องความฝันของคุณ” ผ่าน AXA Bucket List.ai
+2025-02-24 20:00:46,823 - INFO - Successfully parsed article: “โรงเรียนคำพ่อสอน” : ต้นแบบแห่งความสำเร็จ สร้างเด็กดี ลดพฤติกรรมเสี่ยง ขยายผลจากระดับประถมสู่มัธยม
+2025-02-24 20:00:47,922 - INFO - Successfully parsed article: ทิพยประกันภัย เปิดตัวบริการทางการเงิน “PayLater” ผ่าน TIPINSURE.COM
+2025-02-24 20:00:49,033 - INFO - Successfully parsed article: เอไอเอ ประเทศไทย จัดงานมอบรางวัล “AIA Hospital Awards 2024” เชิดชูเกียรติสุดยอดโรงพยาบาลคู่สัญญาที่ได้ร่วมส่งมอบบริการทางการแพทย์อันยอดเยี่ยมให้แก่ลูกค้าทั่วประเทศ
+2025-02-24 20:00:50,136 - INFO - Successfully parsed article: TQM ฉลองครบรอบ 72 ปี กับแคมเปญ “ประกันสำคัญเหมือนอาหารเช้า รู้ว่าดี แต่ก็ละเลย”
+2025-02-24 20:00:51,255 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดสัมมนาให้ความรู้แก่ลูกค้าเพื่อให้เข้าใจถึงความสำคัญของการกำหนดทุนประกันภัยอย่างเหมาะสม
+2025-02-24 20:00:52,352 - INFO - Successfully parsed article: แอกซ่า ส่งเสริมการตระหนักรู้ พร้อมสนับสนุนการป้องกันโรคมะเร็งในประเทศไทย
+2025-02-24 20:00:53,461 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต เปิดตัวบริการเสริมด้านสุขภาพใหม่ “BLA Health Butler” “ใส่ใจ” พาผู้สูงวัยไปหาหมอ
+2025-02-24 20:00:54,577 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดกิจกรรม CSR ทำก้อนเห็ดมอบให้กับโรงเรียนในเขตอำเภอปากช่อง จังหวัดนครราชสีมา
+2025-02-24 20:00:55,682 - INFO - Successfully parsed article: “TIPปันรัก #6 LOVE ON TRACK ฉึกฉักไปตามราง เดินทางไปตามรัก”
+2025-02-24 20:00:56,799 - INFO - Successfully parsed article: คณะการท่องเที่ยวฯ DPU จัดแข่งขันทักษะท่องเที่ยว-โรงแรม-อาหาร ครั้งที่ 1 ภายใต้หัวข้อ “Soft Power ท่องเที่ยวเสน่ห์ไทย” วอศ.เพชรบุรี -ร.ร.สมุทรสาครฯ คว้าแชมป์ไปครอง
+2025-02-24 20:00:57,913 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนเครื่องอุปโภค – บริโภค  “หอบรักมาเติมฝัน ปันสุขเพื่อเด็กแม่สะเรียง”
+2025-02-24 20:00:57,980 - INFO - Found 30 potential articles on page 2
+2025-02-24 20:00:57,981 - INFO - Kept 30 articles within date range on page 2
+2025-02-24 20:00:57,981 - INFO - Scraping page 3: https://www.innwhy.com/pr-news/page/3
+2025-02-24 20:01:00,254 - INFO - Successfully parsed article: Culture Camp Connect รวมพลัง แชร์แนวคิด ธุรกิจเติบโตได้อย่างยั่งยืน เมื่อขับเคลื่อนด้วยเจตนารมณ์
+2025-02-24 20:01:01,370 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย แต่งตั้ง นิติพงษ์ ปรัชญานิมิต ดำรงตำแหน่ง ประธานเจ้าหน้าที่บริหารสายงานลูกค้าและการตลาด
+2025-02-24 20:01:02,485 - INFO - Successfully parsed article: OCEAN LIFE ยกระดับการให้บริการลูกค้าประกันสุขภาพ จัดพิธีมอบรางวัลเชิดชูเกียรติสุดยอดสถานพยาบาลเครือข่าย “OCEAN LIFE Hospital Awards 2024”
+2025-02-24 20:01:03,589 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต รับรางวัล Best Health Insurance Product in Thailand 2024
+2025-02-24 20:01:04,689 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต มอบรถประจำตำแหน่ง “The Executive Car” แก่ตัวแทนคุณภาพ
+2025-02-24 20:01:05,807 - INFO - Successfully parsed article: ธนชาตประกันภัย ส่ง “ประกันภัยอุบัติเหตุ พีเอ แทนรัก”  เป็นของขวัญแทนใจบอกรักกันวันวาเลนไทน์
+2025-02-24 20:01:06,923 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย เดินเกมรุกช่องทางตัวแทนโดยจัดฝึกอบรมหลักสูตร PRUSmart Agent ที่จังหวัดอุดรธานี
+2025-02-24 20:01:08,027 - INFO - Successfully parsed article: ไทยประกันชีวิต ประกาศเป้าหมาย ประจำปี 2568
+2025-02-24 20:01:09,142 - INFO - Successfully parsed article: คปภ. ร่วมเวทีประชุมนายทะเบียนประกันภัยเอเชีย ครั้งที่ 19 และการประชุมระดับสูงหน่วยงานกำกับดูแลธุรกิจประกันภัยในภูมิภาคเอเชีย-แปซิฟิก ครั้งที่ 7 ณ ประเทศเนปาล
+2025-02-24 20:01:10,247 - INFO - Successfully parsed article: heygoody.com ปล่อยแคมเปญ “The Stress-Free Symphony” ยอดพุ่งแรง ทะลุ 1 ล้านวิว ในวันเดียว ตอกย้ำจุดยืนแบรนด์ที่แตกต่างจากประกันแบบเดิมๆ
+2025-02-24 20:01:11,357 - INFO - Successfully parsed article: กองทุนประกันวินาศภัย ลงพื้นที่จังหวัดพิษณุโลก จัดโครงการสร้างความเข้าใจในกระบวนการชำระบัญชี การพิจารณาคำทวงหนี้และการจ่ายเงินให้แก่เจ้าหนี้ของกองทุนประกันวินาศภัย
+2025-02-24 20:01:12,463 - INFO - Successfully parsed article: วิริยะประกันภัย ร่วมสนับสนุนเดิน – วิ่งการกุศล  “ก้าวด้วยธรรม ครั้งที่ 8 เพื่อ 19 โรงพยาบาล”
+2025-02-24 20:01:13,565 - INFO - Successfully parsed article: OCEAN LIFE ก้าวสู่ยุค AI ร่วมเสวนา “Google Cloud AI Solutions Showcase for Executive” มุ่งเสริมศักยภาพองค์กรในยุคดิจิทัล
+2025-02-24 20:01:14,692 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต เฉลิมฉลองเทศกาลตรุษจีน  จัดพิธีสักการะองค์พระโพธิสัตว์กวนอิม เทพเจ้ากวนอู และเทพเจ้ามังกรเขียว พร้อมเชิดมังกรชมพู ประจำปี 2568
+2025-02-24 20:01:15,795 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดโครงการสัมมนาเชิงปฏิบัติการทิศทางยุทธศาสตร์และส่งเสริมมาตรฐานจริยธรรมพนักงานหน่วยงานรัฐ กองทุนประกันชีวิต ประจำปี 2568 ณ จังหวัดนครราชสีมา
+2025-02-24 20:01:16,934 - INFO - Successfully parsed article: Culture Camp Connect รวมพลัง แชร์แนวคิด ธุรกิจเติบโตได้อย่างยั่งยืน เมื่อขับเคลื่อนด้วยเจตนารมณ์
+2025-02-24 20:01:18,053 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย แต่งตั้ง นิติพงษ์ ปรัชญานิมิต ดำรงตำแหน่ง ประธานเจ้าหน้าที่บริหารสายงานลูกค้าและการตลาด
+2025-02-24 20:01:19,161 - INFO - Successfully parsed article: OCEAN LIFE ยกระดับการให้บริการลูกค้าประกันสุขภาพ จัดพิธีมอบรางวัลเชิดชูเกียรติสุดยอดสถานพยาบาลเครือข่าย “OCEAN LIFE Hospital Awards 2024”
+2025-02-24 20:01:20,309 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต รับรางวัล Best Health Insurance Product in Thailand 2024
+2025-02-24 20:01:21,414 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต มอบรถประจำตำแหน่ง “The Executive Car” แก่ตัวแทนคุณภาพ
+2025-02-24 20:01:22,527 - INFO - Successfully parsed article: ธนชาตประกันภัย ส่ง “ประกันภัยอุบัติเหตุ พีเอ แทนรัก”  เป็นของขวัญแทนใจบอกรักกันวันวาเลนไทน์
+2025-02-24 20:01:23,631 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย เดินเกมรุกช่องทางตัวแทนโดยจัดฝึกอบรมหลักสูตร PRUSmart Agent ที่จังหวัดอุดรธานี
+2025-02-24 20:01:24,743 - INFO - Successfully parsed article: ไทยประกันชีวิต ประกาศเป้าหมาย ประจำปี 2568
+2025-02-24 20:01:25,849 - INFO - Successfully parsed article: คปภ. ร่วมเวทีประชุมนายทะเบียนประกันภัยเอเชีย ครั้งที่ 19 และการประชุมระดับสูงหน่วยงานกำกับดูแลธุรกิจประกันภัยในภูมิภาคเอเชีย-แปซิฟิก ครั้งที่ 7 ณ ประเทศเนปาล
+2025-02-24 20:01:26,975 - INFO - Successfully parsed article: heygoody.com ปล่อยแคมเปญ “The Stress-Free Symphony” ยอดพุ่งแรง ทะลุ 1 ล้านวิว ในวันเดียว ตอกย้ำจุดยืนแบรนด์ที่แตกต่างจากประกันแบบเดิมๆ
+2025-02-24 20:01:28,086 - INFO - Successfully parsed article: กองทุนประกันวินาศภัย ลงพื้นที่จังหวัดพิษณุโลก จัดโครงการสร้างความเข้าใจในกระบวนการชำระบัญชี การพิจารณาคำทวงหนี้และการจ่ายเงินให้แก่เจ้าหนี้ของกองทุนประกันวินาศภัย
+2025-02-24 20:01:29,208 - INFO - Successfully parsed article: วิริยะประกันภัย ร่วมสนับสนุนเดิน – วิ่งการกุศล  “ก้าวด้วยธรรม ครั้งที่ 8 เพื่อ 19 โรงพยาบาล”
+2025-02-24 20:01:30,323 - INFO - Successfully parsed article: OCEAN LIFE ก้าวสู่ยุค AI ร่วมเสวนา “Google Cloud AI Solutions Showcase for Executive” มุ่งเสริมศักยภาพองค์กรในยุคดิจิทัล
+2025-02-24 20:01:31,440 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต เฉลิมฉลองเทศกาลตรุษจีน  จัดพิธีสักการะองค์พระโพธิสัตว์กวนอิม เทพเจ้ากวนอู และเทพเจ้ามังกรเขียว พร้อมเชิดมังกรชมพู ประจำปี 2568
+2025-02-24 20:01:32,573 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดโครงการสัมมนาเชิงปฏิบัติการทิศทางยุทธศาสตร์และส่งเสริมมาตรฐานจริยธรรมพนักงานหน่วยงานรัฐ กองทุนประกันชีวิต ประจำปี 2568 ณ จังหวัดนครราชสีมา
+2025-02-24 20:01:32,637 - INFO - Found 30 potential articles on page 3
+2025-02-24 20:01:32,637 - INFO - Kept 30 articles within date range on page 3
+2025-02-24 20:01:32,637 - INFO - Total articles scraped: 90
+2025-02-24 20:01:32,640 - ERROR - Error saving to CSV: module 'pandas.io.common' has no attribute 'csv'
+2025-02-24 20:01:32,640 - ERROR - Failed to save scraped data
+2025-02-25 09:40:30,778 - INFO - Starting scrape of PR news section: https://www.innwhy.com/pr-news/
+2025-02-25 09:40:30,778 - INFO - Scraping page 1: https://www.innwhy.com/pr-news/
+2025-02-25 09:40:33,209 - INFO - Successfully parsed article: สถาบันประกันภัยไทย เดินสาย จ.ขอนแก่น สร้างความร่วมมือด้านการพัฒนาบุคลากรประกันภัย ผลักดันการเรียนรู้ผ่าน LMS
+2025-02-25 09:40:34,309 - INFO - Successfully parsed article: ทิพยประกันชีวิต ร่วมกิจกรรมCSR มูลนิธิบ้านครูบุญชูเพื่อเด็กพิเศษ
+2025-02-25 09:40:35,413 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดงาน “DM KICK OFF 2025”  ผสานพลังตัวแทนฝ่ายขาย Direct Marketing ทั่วประเทศ
+2025-02-25 09:40:36,518 - INFO - Successfully parsed article: ที ไลฟ์ ประกันชีวิต เปิดตัวความร่วมมือกับ MKP LIFE BROKER รุกขยายช่องทางขายประกันชีวิต
+2025-02-25 09:40:39,593 - INFO - Successfully parsed article: OCEAN LIFE  ก้าวสู่ปีที่ 76 ชูแนวคิด Love Mindset – Love Solution  ใช้ความรักนำไปพบทุกคำตอบของการใช้ชีวิตอย่างมั่นคง มั่นใจ และมีความสุข
+2025-02-25 09:40:42,590 - INFO - Successfully parsed article: กรุงไทย – แอกซ่า ประกันชีวิต จัดกิจกรรมลูกค้าสุดเอ็กซ์คลูซีฟ “The First Ultimate Big Fan by กรุงไทย-แอกซ่า ประกันชีวิต” ปีที่ 4
+2025-02-25 09:40:45,507 - INFO - Successfully parsed article: ประกันภัยไทยวิวัฒน์ เดินหน้าขยายพันธมิตรด้านสุขภาพ  จับมือ ร้านยากรุงเทพ มอบสิทธิประโยชน์ลูกค้า
+2025-02-25 09:40:48,451 - INFO - Successfully parsed article: ฟอลคอนประกันภัย มอบสินไหมทดแทนประกันภัยอุบัติเหตุส่วนบุคคล พร้อมเพิ่มทุนคุ้มครอง 25% โดยไม่มีค่าใช้จ่าย รวม 5 ล้านบาท
+2025-02-25 09:40:51,423 - INFO - Successfully parsed article: โตเกียวมารีนประกันชีวิต เบี้ยตัวแทนแตะ 6.28 หมื่นล้าน ปี 67 พลิกทำกำไร 364 ล้าน หลังชะลอประกันฯเด็ก สปีดเพิ่มขุนพล 2,000 คน ปลายปีนี้คาดทะลุ 10,000 ล้าน
+2025-02-25 09:40:54,450 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดงาน BKI Staff Party 2025 ในธีม Building Excellence รวมพลังเพื่อสร้างความเป็นเลิศที่โดดเด่นและแตกต่าง
+2025-02-25 09:40:57,347 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดกิจกรรม “โครงการอบอุ่นกับเมืองไทยประกันชีวิต” มอบผ้าห่มอัพไซคลิง แก่โรงเรียนไทยรัฐวิทยา79 (บ้านหนองอาบช้าง)  และโรงเรียนบ้านน้ำตกแม่กลาง จ. เชียงใหม่
+2025-02-25 09:41:00,254 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนนิทรรศการเพื่อเด็กและครอบครัว  เรียนรู้การโอบรับความหลากหลาย ผ่านดนตรีและศิลปะ
+2025-02-25 09:41:03,330 - INFO - Successfully parsed article: BLA กวาดกำไรปี 67 รวม 3,623 ล้านบาท โตพุ่ง 42% เคาะจ่ายปันผลปี 2567 หุ้นละ 0.68 บาท รวม 1,159 ล้านบาท
+2025-02-25 09:41:06,323 - INFO - Successfully parsed article: ธนชาตประกันภัย มอบทุนการศึกษาโรงเรียนกายอุปกรณ์สิรินธรฯ ร่วมผลิตนักกายอุปกรณ์คุณภาพ ต่อเนื่องปีที่ 11 ยกระดับชีวิตให้ผู้พิการ
+2025-02-25 09:41:09,348 - INFO - Successfully parsed article: อลิอันซ์ อยุธยา จัดงาน “MY STYLE CLUB Special” มอบความรู้การลงทุนสำหรับลูกค้าคนพิเศษ
+2025-02-25 09:41:10,470 - INFO - Successfully parsed article: สถาบันประกันภัยไทย เดินสาย จ.ขอนแก่น สร้างความร่วมมือด้านการพัฒนาบุคลากรประกันภัย ผลักดันการเรียนรู้ผ่าน LMS
+2025-02-25 09:41:11,564 - INFO - Successfully parsed article: ทิพยประกันชีวิต ร่วมกิจกรรมCSR มูลนิธิบ้านครูบุญชูเพื่อเด็กพิเศษ
+2025-02-25 09:41:12,664 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดงาน “DM KICK OFF 2025”  ผสานพลังตัวแทนฝ่ายขาย Direct Marketing ทั่วประเทศ
+2025-02-25 09:41:13,753 - INFO - Successfully parsed article: ที ไลฟ์ ประกันชีวิต เปิดตัวความร่วมมือกับ MKP LIFE BROKER รุกขยายช่องทางขายประกันชีวิต
+2025-02-25 09:41:14,872 - INFO - Successfully parsed article: OCEAN LIFE  ก้าวสู่ปีที่ 76 ชูแนวคิด Love Mindset – Love Solution  ใช้ความรักนำไปพบทุกคำตอบของการใช้ชีวิตอย่างมั่นคง มั่นใจ และมีความสุข
+2025-02-25 09:41:15,974 - INFO - Successfully parsed article: กรุงไทย – แอกซ่า ประกันชีวิต จัดกิจกรรมลูกค้าสุดเอ็กซ์คลูซีฟ “The First Ultimate Big Fan by กรุงไทย-แอกซ่า ประกันชีวิต” ปีที่ 4
+2025-02-25 09:41:17,081 - INFO - Successfully parsed article: ประกันภัยไทยวิวัฒน์ เดินหน้าขยายพันธมิตรด้านสุขภาพ  จับมือ ร้านยากรุงเทพ มอบสิทธิประโยชน์ลูกค้า
+2025-02-25 09:41:18,191 - INFO - Successfully parsed article: ฟอลคอนประกันภัย มอบสินไหมทดแทนประกันภัยอุบัติเหตุส่วนบุคคล พร้อมเพิ่มทุนคุ้มครอง 25% โดยไม่มีค่าใช้จ่าย รวม 5 ล้านบาท
+2025-02-25 09:41:19,316 - INFO - Successfully parsed article: โตเกียวมารีนประกันชีวิต เบี้ยตัวแทนแตะ 6.28 หมื่นล้าน ปี 67 พลิกทำกำไร 364 ล้าน หลังชะลอประกันฯเด็ก สปีดเพิ่มขุนพล 2,000 คน ปลายปีนี้คาดทะลุ 10,000 ล้าน
+2025-02-25 09:41:20,409 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดงาน BKI Staff Party 2025 ในธีม Building Excellence รวมพลังเพื่อสร้างความเป็นเลิศที่โดดเด่นและแตกต่าง
+2025-02-25 09:41:21,488 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดกิจกรรม “โครงการอบอุ่นกับเมืองไทยประกันชีวิต” มอบผ้าห่มอัพไซคลิง แก่โรงเรียนไทยรัฐวิทยา79 (บ้านหนองอาบช้าง)  และโรงเรียนบ้านน้ำตกแม่กลาง จ. เชียงใหม่
+2025-02-25 09:41:22,566 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนนิทรรศการเพื่อเด็กและครอบครัว  เรียนรู้การโอบรับความหลากหลาย ผ่านดนตรีและศิลปะ
+2025-02-25 09:41:23,689 - INFO - Successfully parsed article: BLA กวาดกำไรปี 67 รวม 3,623 ล้านบาท โตพุ่ง 42% เคาะจ่ายปันผลปี 2567 หุ้นละ 0.68 บาท รวม 1,159 ล้านบาท
+2025-02-25 09:41:24,796 - INFO - Successfully parsed article: ธนชาตประกันภัย มอบทุนการศึกษาโรงเรียนกายอุปกรณ์สิรินธรฯ ร่วมผลิตนักกายอุปกรณ์คุณภาพ ต่อเนื่องปีที่ 11 ยกระดับชีวิตให้ผู้พิการ
+2025-02-25 09:41:25,918 - INFO - Successfully parsed article: อลิอันซ์ อยุธยา จัดงาน “MY STYLE CLUB Special” มอบความรู้การลงทุนสำหรับลูกค้าคนพิเศษ
+2025-02-25 09:41:25,958 - INFO - Found 30 potential articles on page 1
+2025-02-25 09:41:25,959 - INFO - Kept 30 articles within date range on page 1
+2025-02-25 09:41:25,959 - INFO - Scraping page 2: https://www.innwhy.com/pr-news/page/2
+2025-02-25 09:41:33,760 - INFO - Successfully parsed article: ฟิลลิปประกันชีวิตจัดทริปสุดพิเศษ “จิบชา ชิมไวน์ ดินเนอร์ปาร์ตี้” มอบรางวัลแทนคำขอบคุณตัวแทนยอดเยี่ยม
+2025-02-25 09:41:36,834 - INFO - Successfully parsed article: สมาคมประกันชีวิตไทยเผยเบี้ยประกันภัยรับรวม ปี 67 เติบโต 3.23% คาดการณ์ ปี 68 เติบโต 2-3 %
+2025-02-25 09:41:39,885 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต ใส่ใจพนักงาน จัดแคมเปญต้อนรับวันวาเลนไทน์  ส่งต่อความสุขและความอบอุ่นทั่วทั้งองค์กร
+2025-02-25 09:41:42,956 - INFO - Successfully parsed article: กรุงไทย–แอกซ่า ประกันชีวิต เปิดตัวแคมเปญใหม่ เชิญชวนทุกคน “มาร่วมสร้างและปกป้องความฝันของคุณ” ผ่าน AXA Bucket List.ai
+2025-02-25 09:41:45,963 - INFO - Successfully parsed article: “โรงเรียนคำพ่อสอน” : ต้นแบบแห่งความสำเร็จ สร้างเด็กดี ลดพฤติกรรมเสี่ยง ขยายผลจากระดับประถมสู่มัธยม
+2025-02-25 09:41:48,920 - INFO - Successfully parsed article: ทิพยประกันภัย เปิดตัวบริการทางการเงิน “PayLater” ผ่าน TIPINSURE.COM
+2025-02-25 09:41:52,007 - INFO - Successfully parsed article: เอไอเอ ประเทศไทย จัดงานมอบรางวัล “AIA Hospital Awards 2024” เชิดชูเกียรติสุดยอดโรงพยาบาลคู่สัญญาที่ได้ร่วมส่งมอบบริการทางการแพทย์อันยอดเยี่ยมให้แก่ลูกค้าทั่วประเทศ
+2025-02-25 09:41:55,160 - INFO - Successfully parsed article: TQM ฉลองครบรอบ 72 ปี กับแคมเปญ “ประกันสำคัญเหมือนอาหารเช้า รู้ว่าดี แต่ก็ละเลย”
+2025-02-25 09:41:58,090 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดสัมมนาให้ความรู้แก่ลูกค้าเพื่อให้เข้าใจถึงความสำคัญของการกำหนดทุนประกันภัยอย่างเหมาะสม
+2025-02-25 09:42:01,094 - INFO - Successfully parsed article: แอกซ่า ส่งเสริมการตระหนักรู้ พร้อมสนับสนุนการป้องกันโรคมะเร็งในประเทศไทย
+2025-02-25 09:42:04,068 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต เปิดตัวบริการเสริมด้านสุขภาพใหม่ “BLA Health Butler” “ใส่ใจ” พาผู้สูงวัยไปหาหมอ
+2025-02-25 09:42:07,058 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดกิจกรรม CSR ทำก้อนเห็ดมอบให้กับโรงเรียนในเขตอำเภอปากช่อง จังหวัดนครราชสีมา
+2025-02-25 09:42:10,088 - INFO - Successfully parsed article: “TIPปันรัก #6 LOVE ON TRACK ฉึกฉักไปตามราง เดินทางไปตามรัก”
+2025-02-25 09:42:13,169 - INFO - Successfully parsed article: คณะการท่องเที่ยวฯ DPU จัดแข่งขันทักษะท่องเที่ยว-โรงแรม-อาหาร ครั้งที่ 1 ภายใต้หัวข้อ “Soft Power ท่องเที่ยวเสน่ห์ไทย” วอศ.เพชรบุรี -ร.ร.สมุทรสาครฯ คว้าแชมป์ไปครอง
+2025-02-25 09:42:16,151 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนเครื่องอุปโภค – บริโภค  “หอบรักมาเติมฝัน ปันสุขเพื่อเด็กแม่สะเรียง”
+2025-02-25 09:42:17,251 - INFO - Successfully parsed article: ฟิลลิปประกันชีวิตจัดทริปสุดพิเศษ “จิบชา ชิมไวน์ ดินเนอร์ปาร์ตี้” มอบรางวัลแทนคำขอบคุณตัวแทนยอดเยี่ยม
+2025-02-25 09:42:18,368 - INFO - Successfully parsed article: สมาคมประกันชีวิตไทยเผยเบี้ยประกันภัยรับรวม ปี 67 เติบโต 3.23% คาดการณ์ ปี 68 เติบโต 2-3 %
+2025-02-25 09:42:19,462 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต ใส่ใจพนักงาน จัดแคมเปญต้อนรับวันวาเลนไทน์  ส่งต่อความสุขและความอบอุ่นทั่วทั้งองค์กร
+2025-02-25 09:42:20,579 - INFO - Successfully parsed article: กรุงไทย–แอกซ่า ประกันชีวิต เปิดตัวแคมเปญใหม่ เชิญชวนทุกคน “มาร่วมสร้างและปกป้องความฝันของคุณ” ผ่าน AXA Bucket List.ai
+2025-02-25 09:42:21,710 - INFO - Successfully parsed article: “โรงเรียนคำพ่อสอน” : ต้นแบบแห่งความสำเร็จ สร้างเด็กดี ลดพฤติกรรมเสี่ยง ขยายผลจากระดับประถมสู่มัธยม
+2025-02-25 09:42:22,813 - INFO - Successfully parsed article: ทิพยประกันภัย เปิดตัวบริการทางการเงิน “PayLater” ผ่าน TIPINSURE.COM
+2025-02-25 09:42:23,922 - INFO - Successfully parsed article: เอไอเอ ประเทศไทย จัดงานมอบรางวัล “AIA Hospital Awards 2024” เชิดชูเกียรติสุดยอดโรงพยาบาลคู่สัญญาที่ได้ร่วมส่งมอบบริการทางการแพทย์อันยอดเยี่ยมให้แก่ลูกค้าทั่วประเทศ
+2025-02-25 09:42:25,030 - INFO - Successfully parsed article: TQM ฉลองครบรอบ 72 ปี กับแคมเปญ “ประกันสำคัญเหมือนอาหารเช้า รู้ว่าดี แต่ก็ละเลย”
+2025-02-25 09:42:26,125 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดสัมมนาให้ความรู้แก่ลูกค้าเพื่อให้เข้าใจถึงความสำคัญของการกำหนดทุนประกันภัยอย่างเหมาะสม
+2025-02-25 09:42:27,227 - INFO - Successfully parsed article: แอกซ่า ส่งเสริมการตระหนักรู้ พร้อมสนับสนุนการป้องกันโรคมะเร็งในประเทศไทย
+2025-02-25 09:42:28,332 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต เปิดตัวบริการเสริมด้านสุขภาพใหม่ “BLA Health Butler” “ใส่ใจ” พาผู้สูงวัยไปหาหมอ
+2025-02-25 09:42:29,438 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดกิจกรรม CSR ทำก้อนเห็ดมอบให้กับโรงเรียนในเขตอำเภอปากช่อง จังหวัดนครราชสีมา
+2025-02-25 09:42:30,567 - INFO - Successfully parsed article: “TIPปันรัก #6 LOVE ON TRACK ฉึกฉักไปตามราง เดินทางไปตามรัก”
+2025-02-25 09:42:31,670 - INFO - Successfully parsed article: คณะการท่องเที่ยวฯ DPU จัดแข่งขันทักษะท่องเที่ยว-โรงแรม-อาหาร ครั้งที่ 1 ภายใต้หัวข้อ “Soft Power ท่องเที่ยวเสน่ห์ไทย” วอศ.เพชรบุรี -ร.ร.สมุทรสาครฯ คว้าแชมป์ไปครอง
+2025-02-25 09:42:32,775 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนเครื่องอุปโภค – บริโภค  “หอบรักมาเติมฝัน ปันสุขเพื่อเด็กแม่สะเรียง”
+2025-02-25 09:42:32,815 - INFO - Found 30 potential articles on page 2
+2025-02-25 09:42:32,816 - INFO - Kept 30 articles within date range on page 2
+2025-02-25 09:42:32,816 - INFO - Scraping page 3: https://www.innwhy.com/pr-news/page/3
+2025-02-25 09:42:40,590 - INFO - Successfully parsed article: Culture Camp Connect รวมพลัง แชร์แนวคิด ธุรกิจเติบโตได้อย่างยั่งยืน เมื่อขับเคลื่อนด้วยเจตนารมณ์
+2025-02-25 09:42:43,592 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย แต่งตั้ง นิติพงษ์ ปรัชญานิมิต ดำรงตำแหน่ง ประธานเจ้าหน้าที่บริหารสายงานลูกค้าและการตลาด
+2025-02-25 09:42:46,542 - INFO - Successfully parsed article: OCEAN LIFE ยกระดับการให้บริการลูกค้าประกันสุขภาพ จัดพิธีมอบรางวัลเชิดชูเกียรติสุดยอดสถานพยาบาลเครือข่าย “OCEAN LIFE Hospital Awards 2024”
+2025-02-25 09:42:49,437 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต รับรางวัล Best Health Insurance Product in Thailand 2024
+2025-02-25 09:42:52,507 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต มอบรถประจำตำแหน่ง “The Executive Car” แก่ตัวแทนคุณภาพ
+2025-02-25 09:42:55,576 - INFO - Successfully parsed article: ธนชาตประกันภัย ส่ง “ประกันภัยอุบัติเหตุ พีเอ แทนรัก”  เป็นของขวัญแทนใจบอกรักกันวันวาเลนไทน์
+2025-02-25 09:42:58,647 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย เดินเกมรุกช่องทางตัวแทนโดยจัดฝึกอบรมหลักสูตร PRUSmart Agent ที่จังหวัดอุดรธานี
+2025-02-25 09:43:01,696 - INFO - Successfully parsed article: ไทยประกันชีวิต ประกาศเป้าหมาย ประจำปี 2568
+2025-02-25 09:43:04,688 - INFO - Successfully parsed article: คปภ. ร่วมเวทีประชุมนายทะเบียนประกันภัยเอเชีย ครั้งที่ 19 และการประชุมระดับสูงหน่วยงานกำกับดูแลธุรกิจประกันภัยในภูมิภาคเอเชีย-แปซิฟิก ครั้งที่ 7 ณ ประเทศเนปาล
+2025-02-25 09:43:07,605 - INFO - Successfully parsed article: heygoody.com ปล่อยแคมเปญ “The Stress-Free Symphony” ยอดพุ่งแรง ทะลุ 1 ล้านวิว ในวันเดียว ตอกย้ำจุดยืนแบรนด์ที่แตกต่างจากประกันแบบเดิมๆ
+2025-02-25 09:43:10,564 - INFO - Successfully parsed article: กองทุนประกันวินาศภัย ลงพื้นที่จังหวัดพิษณุโลก จัดโครงการสร้างความเข้าใจในกระบวนการชำระบัญชี การพิจารณาคำทวงหนี้และการจ่ายเงินให้แก่เจ้าหนี้ของกองทุนประกันวินาศภัย
+2025-02-25 09:43:13,585 - INFO - Successfully parsed article: วิริยะประกันภัย ร่วมสนับสนุนเดิน – วิ่งการกุศล  “ก้าวด้วยธรรม ครั้งที่ 8 เพื่อ 19 โรงพยาบาล”
+2025-02-25 09:43:16,566 - INFO - Successfully parsed article: OCEAN LIFE ก้าวสู่ยุค AI ร่วมเสวนา “Google Cloud AI Solutions Showcase for Executive” มุ่งเสริมศักยภาพองค์กรในยุคดิจิทัล
+2025-02-25 09:43:19,658 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต เฉลิมฉลองเทศกาลตรุษจีน  จัดพิธีสักการะองค์พระโพธิสัตว์กวนอิม เทพเจ้ากวนอู และเทพเจ้ามังกรเขียว พร้อมเชิดมังกรชมพู ประจำปี 2568
+2025-02-25 09:43:22,741 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดโครงการสัมมนาเชิงปฏิบัติการทิศทางยุทธศาสตร์และส่งเสริมมาตรฐานจริยธรรมพนักงานหน่วยงานรัฐ กองทุนประกันชีวิต ประจำปี 2568 ณ จังหวัดนครราชสีมา
+2025-02-25 09:43:23,848 - INFO - Successfully parsed article: Culture Camp Connect รวมพลัง แชร์แนวคิด ธุรกิจเติบโตได้อย่างยั่งยืน เมื่อขับเคลื่อนด้วยเจตนารมณ์
+2025-02-25 09:43:24,957 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย แต่งตั้ง นิติพงษ์ ปรัชญานิมิต ดำรงตำแหน่ง ประธานเจ้าหน้าที่บริหารสายงานลูกค้าและการตลาด
+2025-02-25 09:43:26,052 - INFO - Successfully parsed article: OCEAN LIFE ยกระดับการให้บริการลูกค้าประกันสุขภาพ จัดพิธีมอบรางวัลเชิดชูเกียรติสุดยอดสถานพยาบาลเครือข่าย “OCEAN LIFE Hospital Awards 2024”
+2025-02-25 09:43:27,151 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต รับรางวัล Best Health Insurance Product in Thailand 2024
+2025-02-25 09:43:28,258 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต มอบรถประจำตำแหน่ง “The Executive Car” แก่ตัวแทนคุณภาพ
+2025-02-25 09:43:29,365 - INFO - Successfully parsed article: ธนชาตประกันภัย ส่ง “ประกันภัยอุบัติเหตุ พีเอ แทนรัก”  เป็นของขวัญแทนใจบอกรักกันวันวาเลนไทน์
+2025-02-25 09:43:30,474 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย เดินเกมรุกช่องทางตัวแทนโดยจัดฝึกอบรมหลักสูตร PRUSmart Agent ที่จังหวัดอุดรธานี
+2025-02-25 09:43:31,583 - INFO - Successfully parsed article: ไทยประกันชีวิต ประกาศเป้าหมาย ประจำปี 2568
+2025-02-25 09:43:32,684 - INFO - Successfully parsed article: คปภ. ร่วมเวทีประชุมนายทะเบียนประกันภัยเอเชีย ครั้งที่ 19 และการประชุมระดับสูงหน่วยงานกำกับดูแลธุรกิจประกันภัยในภูมิภาคเอเชีย-แปซิฟิก ครั้งที่ 7 ณ ประเทศเนปาล
+2025-02-25 09:43:33,825 - INFO - Successfully parsed article: heygoody.com ปล่อยแคมเปญ “The Stress-Free Symphony” ยอดพุ่งแรง ทะลุ 1 ล้านวิว ในวันเดียว ตอกย้ำจุดยืนแบรนด์ที่แตกต่างจากประกันแบบเดิมๆ
+2025-02-25 09:43:35,179 - INFO - Successfully parsed article: กองทุนประกันวินาศภัย ลงพื้นที่จังหวัดพิษณุโลก จัดโครงการสร้างความเข้าใจในกระบวนการชำระบัญชี การพิจารณาคำทวงหนี้และการจ่ายเงินให้แก่เจ้าหนี้ของกองทุนประกันวินาศภัย
+2025-02-25 09:43:36,289 - INFO - Successfully parsed article: วิริยะประกันภัย ร่วมสนับสนุนเดิน – วิ่งการกุศล  “ก้าวด้วยธรรม ครั้งที่ 8 เพื่อ 19 โรงพยาบาล”
+2025-02-25 09:43:37,418 - INFO - Successfully parsed article: OCEAN LIFE ก้าวสู่ยุค AI ร่วมเสวนา “Google Cloud AI Solutions Showcase for Executive” มุ่งเสริมศักยภาพองค์กรในยุคดิจิทัล
+2025-02-25 09:43:38,511 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต เฉลิมฉลองเทศกาลตรุษจีน  จัดพิธีสักการะองค์พระโพธิสัตว์กวนอิม เทพเจ้ากวนอู และเทพเจ้ามังกรเขียว พร้อมเชิดมังกรชมพู ประจำปี 2568
+2025-02-25 09:43:39,629 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดโครงการสัมมนาเชิงปฏิบัติการทิศทางยุทธศาสตร์และส่งเสริมมาตรฐานจริยธรรมพนักงานหน่วยงานรัฐ กองทุนประกันชีวิต ประจำปี 2568 ณ จังหวัดนครราชสีมา
+2025-02-25 09:43:39,667 - INFO - Found 30 potential articles on page 3
+2025-02-25 09:43:39,667 - INFO - Kept 30 articles within date range on page 3
+2025-02-25 09:43:39,667 - INFO - Total articles scraped: 90
+2025-02-25 09:43:39,676 - INFO - Successfully saved 90 articles to output/scraped_articles.csv
+2025-02-25 09:43:39,676 - INFO - Scraping process completed successfully
+2025-02-26 09:41:34,225 - INFO - Starting scrape of PR news section: https://www.innwhy.com/pr-news/
+2025-02-26 09:41:34,225 - INFO - Scraping page 1: https://www.innwhy.com/pr-news/
+2025-02-26 09:41:36,890 - INFO - Successfully parsed article: ชับบ์ ไลฟ์ ประกันชีวิต รุกตลาดยูนิต ลิงค์ ส่งผลิตภัณฑ์ “ซูเปอร์ โพรเทค ลิงค์” ที่ให้อิสระการลงทุนตอบโจทย์ไลฟ์สไตล์ทุกช่วงจังหวะของชีวิต
+2025-02-26 09:41:38,068 - INFO - Successfully parsed article: กรุงไทย-แอกซ่า ประกันชีวิต ในฐานะพันธมิตรหลักของสโมสรลิเวอร์พูล  มอบประสบการณ์สุดพิเศษแก่ลูกค้า เอาใจคอลูกหนัง  พาชมแมตช์ว่าที่แชมป์ ระหว่าง ลิเวอร์พูล-แมนเชสเตอร์ซิตี้
+2025-02-26 09:41:39,215 - INFO - Successfully parsed article: เงินติดล้อ จัดกิจกรรม TIDLOR Culture Wow ให้กับ 9 บริษัทชั้นนำของประเทศไทย
+2025-02-26 09:41:40,393 - INFO - Successfully parsed article: กองทุนประกันชีวิต ร่วมงาน THAIFA BOOSTER CLUB EP.6 แนะนำบทบาทออกบูธประชาสัมพันธ์องค์กร
+2025-02-26 09:41:41,565 - INFO - Successfully parsed article: THAIFA จุดระเบิดวิชาการต้อนรับปี 2568 “Now & Future เริ่มต้นปีงูด้วยความรู้เท่าทัน” กับกิจกรรม THAIFA BOOSTER CLUB ครั้งที่ 6 ผ่านประสบการณ์สุดยอด 3 วิทยากร แชร์ตรงผู้ร่วมงานกว่า 300 คน
+2025-02-26 09:41:42,743 - INFO - Successfully parsed article: วิริยะประกันภัย มอบรางวัลเวทีคนเก่งคณิตศาสตร์ ปีที่ 18
+2025-02-26 09:41:44,176 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต จัดแคมเปญ “BLA ใส่ใจคนโสด เปิดโหมดแฮปปี้” เดินสายเติมความอบอุ่นแบบใจฟูรับวันวาเลนไทน์
+2025-02-26 09:41:45,334 - INFO - Successfully parsed article: THREL กางแผนปี 68 ก้าวสู่ Road to Quality  ปั้นพอร์ตคุณภาพอัพการเติบโต  เปิดผลงานปี 67 เบี้ยรับโตทะลุ 4.5 พันลบ.
+2025-02-26 09:41:46,526 - INFO - Successfully parsed article: สถาบันประกันภัยไทย เดินสาย จ.ขอนแก่น สร้างความร่วมมือด้านการพัฒนาบุคลากรประกันภัย ผลักดันการเรียนรู้ผ่าน LMS
+2025-02-26 09:41:47,717 - INFO - Successfully parsed article: ทิพยประกันชีวิต ร่วมกิจกรรมCSR มูลนิธิบ้านครูบุญชูเพื่อเด็กพิเศษ
+2025-02-26 09:41:50,554 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดงาน “DM KICK OFF 2025”  ผสานพลังตัวแทนฝ่ายขาย Direct Marketing ทั่วประเทศ
+2025-02-26 09:41:53,407 - INFO - Successfully parsed article: ที ไลฟ์ ประกันชีวิต เปิดตัวความร่วมมือกับ MKP LIFE BROKER รุกขยายช่องทางขายประกันชีวิต
+2025-02-26 09:41:56,292 - INFO - Successfully parsed article: OCEAN LIFE  ก้าวสู่ปีที่ 76 ชูแนวคิด Love Mindset – Love Solution  ใช้ความรักนำไปพบทุกคำตอบของการใช้ชีวิตอย่างมั่นคง มั่นใจ และมีความสุข
+2025-02-26 09:41:59,081 - INFO - Successfully parsed article: กรุงไทย – แอกซ่า ประกันชีวิต จัดกิจกรรมลูกค้าสุดเอ็กซ์คลูซีฟ “The First Ultimate Big Fan by กรุงไทย-แอกซ่า ประกันชีวิต” ปีที่ 4
+2025-02-26 09:42:01,688 - INFO - Successfully parsed article: ประกันภัยไทยวิวัฒน์ เดินหน้าขยายพันธมิตรด้านสุขภาพ  จับมือ ร้านยากรุงเทพ มอบสิทธิประโยชน์ลูกค้า
+2025-02-26 09:42:02,843 - INFO - Successfully parsed article: ชับบ์ ไลฟ์ ประกันชีวิต รุกตลาดยูนิต ลิงค์ ส่งผลิตภัณฑ์ “ซูเปอร์ โพรเทค ลิงค์” ที่ให้อิสระการลงทุนตอบโจทย์ไลฟ์สไตล์ทุกช่วงจังหวะของชีวิต
+2025-02-26 09:42:04,012 - INFO - Successfully parsed article: กรุงไทย-แอกซ่า ประกันชีวิต ในฐานะพันธมิตรหลักของสโมสรลิเวอร์พูล  มอบประสบการณ์สุดพิเศษแก่ลูกค้า เอาใจคอลูกหนัง  พาชมแมตช์ว่าที่แชมป์ ระหว่าง ลิเวอร์พูล-แมนเชสเตอร์ซิตี้
+2025-02-26 09:42:05,226 - INFO - Successfully parsed article: เงินติดล้อ จัดกิจกรรม TIDLOR Culture Wow ให้กับ 9 บริษัทชั้นนำของประเทศไทย
+2025-02-26 09:42:06,422 - INFO - Successfully parsed article: กองทุนประกันชีวิต ร่วมงาน THAIFA BOOSTER CLUB EP.6 แนะนำบทบาทออกบูธประชาสัมพันธ์องค์กร
+2025-02-26 09:42:07,581 - INFO - Successfully parsed article: THAIFA จุดระเบิดวิชาการต้อนรับปี 2568 “Now & Future เริ่มต้นปีงูด้วยความรู้เท่าทัน” กับกิจกรรม THAIFA BOOSTER CLUB ครั้งที่ 6 ผ่านประสบการณ์สุดยอด 3 วิทยากร แชร์ตรงผู้ร่วมงานกว่า 300 คน
+2025-02-26 09:42:08,735 - INFO - Successfully parsed article: วิริยะประกันภัย มอบรางวัลเวทีคนเก่งคณิตศาสตร์ ปีที่ 18
+2025-02-26 09:42:09,905 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต จัดแคมเปญ “BLA ใส่ใจคนโสด เปิดโหมดแฮปปี้” เดินสายเติมความอบอุ่นแบบใจฟูรับวันวาเลนไทน์
+2025-02-26 09:42:11,083 - INFO - Successfully parsed article: THREL กางแผนปี 68 ก้าวสู่ Road to Quality  ปั้นพอร์ตคุณภาพอัพการเติบโต  เปิดผลงานปี 67 เบี้ยรับโตทะลุ 4.5 พันลบ.
+2025-02-26 09:42:12,318 - INFO - Successfully parsed article: สถาบันประกันภัยไทย เดินสาย จ.ขอนแก่น สร้างความร่วมมือด้านการพัฒนาบุคลากรประกันภัย ผลักดันการเรียนรู้ผ่าน LMS
+2025-02-26 09:42:13,500 - INFO - Successfully parsed article: ทิพยประกันชีวิต ร่วมกิจกรรมCSR มูลนิธิบ้านครูบุญชูเพื่อเด็กพิเศษ
+2025-02-26 09:42:14,714 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดงาน “DM KICK OFF 2025”  ผสานพลังตัวแทนฝ่ายขาย Direct Marketing ทั่วประเทศ
+2025-02-26 09:42:15,897 - INFO - Successfully parsed article: ที ไลฟ์ ประกันชีวิต เปิดตัวความร่วมมือกับ MKP LIFE BROKER รุกขยายช่องทางขายประกันชีวิต
+2025-02-26 09:42:17,100 - INFO - Successfully parsed article: OCEAN LIFE  ก้าวสู่ปีที่ 76 ชูแนวคิด Love Mindset – Love Solution  ใช้ความรักนำไปพบทุกคำตอบของการใช้ชีวิตอย่างมั่นคง มั่นใจ และมีความสุข
+2025-02-26 09:42:18,291 - INFO - Successfully parsed article: กรุงไทย – แอกซ่า ประกันชีวิต จัดกิจกรรมลูกค้าสุดเอ็กซ์คลูซีฟ “The First Ultimate Big Fan by กรุงไทย-แอกซ่า ประกันชีวิต” ปีที่ 4
+2025-02-26 09:42:19,494 - INFO - Successfully parsed article: ประกันภัยไทยวิวัฒน์ เดินหน้าขยายพันธมิตรด้านสุขภาพ  จับมือ ร้านยากรุงเทพ มอบสิทธิประโยชน์ลูกค้า
+2025-02-26 09:42:19,533 - INFO - Found 30 potential articles on page 1
+2025-02-26 09:42:19,534 - INFO - Kept 30 articles within date range on page 1
+2025-02-26 09:42:19,534 - INFO - Scraping page 2: https://www.innwhy.com/pr-news/page/2
+2025-02-26 09:42:26,710 - INFO - Successfully parsed article: ฟอลคอนประกันภัย มอบสินไหมทดแทนประกันภัยอุบัติเหตุส่วนบุคคล พร้อมเพิ่มทุนคุ้มครอง 25% โดยไม่มีค่าใช้จ่าย รวม 5 ล้านบาท
+2025-02-26 09:42:27,889 - INFO - Successfully parsed article: โตเกียวมารีนประกันชีวิต เบี้ยตัวแทนแตะ 6.28 หมื่นล้าน ปี 67 พลิกทำกำไร 364 ล้าน หลังชะลอประกันฯเด็ก สปีดเพิ่มขุนพล 2,000 คน ปลายปีนี้คาดทะลุ 10,000 ล้าน
+2025-02-26 09:42:30,524 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดงาน BKI Staff Party 2025 ในธีม Building Excellence รวมพลังเพื่อสร้างความเป็นเลิศที่โดดเด่นและแตกต่าง
+2025-02-26 09:42:33,228 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดกิจกรรม “โครงการอบอุ่นกับเมืองไทยประกันชีวิต” มอบผ้าห่มอัพไซคลิง แก่โรงเรียนไทยรัฐวิทยา79 (บ้านหนองอาบช้าง)  และโรงเรียนบ้านน้ำตกแม่กลาง จ. เชียงใหม่
+2025-02-26 09:42:35,874 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนนิทรรศการเพื่อเด็กและครอบครัว  เรียนรู้การโอบรับความหลากหลาย ผ่านดนตรีและศิลปะ
+2025-02-26 09:42:38,678 - INFO - Successfully parsed article: BLA กวาดกำไรปี 67 รวม 3,623 ล้านบาท โตพุ่ง 42% เคาะจ่ายปันผลปี 2567 หุ้นละ 0.68 บาท รวม 1,159 ล้านบาท
+2025-02-26 09:42:41,462 - INFO - Successfully parsed article: ธนชาตประกันภัย มอบทุนการศึกษาโรงเรียนกายอุปกรณ์สิรินธรฯ ร่วมผลิตนักกายอุปกรณ์คุณภาพ ต่อเนื่องปีที่ 11 ยกระดับชีวิตให้ผู้พิการ
+2025-02-26 09:42:44,208 - INFO - Successfully parsed article: อลิอันซ์ อยุธยา จัดงาน “MY STYLE CLUB Special” มอบความรู้การลงทุนสำหรับลูกค้าคนพิเศษ
+2025-02-26 09:42:47,202 - INFO - Successfully parsed article: ฟิลลิปประกันชีวิตจัดทริปสุดพิเศษ “จิบชา ชิมไวน์ ดินเนอร์ปาร์ตี้” มอบรางวัลแทนคำขอบคุณตัวแทนยอดเยี่ยม
+2025-02-26 09:42:48,373 - INFO - Successfully parsed article: สมาคมประกันชีวิตไทยเผยเบี้ยประกันภัยรับรวม ปี 67 เติบโต 3.23% คาดการณ์ ปี 68 เติบโต 2-3 %
+2025-02-26 09:42:51,070 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต ใส่ใจพนักงาน จัดแคมเปญต้อนรับวันวาเลนไทน์  ส่งต่อความสุขและความอบอุ่นทั่วทั้งองค์กร
+2025-02-26 09:42:53,747 - INFO - Successfully parsed article: กรุงไทย–แอกซ่า ประกันชีวิต เปิดตัวแคมเปญใหม่ เชิญชวนทุกคน “มาร่วมสร้างและปกป้องความฝันของคุณ” ผ่าน AXA Bucket List.ai
+2025-02-26 09:42:56,613 - INFO - Successfully parsed article: “โรงเรียนคำพ่อสอน” : ต้นแบบแห่งความสำเร็จ สร้างเด็กดี ลดพฤติกรรมเสี่ยง ขยายผลจากระดับประถมสู่มัธยม
+2025-02-26 09:42:59,255 - INFO - Successfully parsed article: ทิพยประกันภัย เปิดตัวบริการทางการเงิน “PayLater” ผ่าน TIPINSURE.COM
+2025-02-26 09:43:01,876 - INFO - Successfully parsed article: เอไอเอ ประเทศไทย จัดงานมอบรางวัล “AIA Hospital Awards 2024” เชิดชูเกียรติสุดยอดโรงพยาบาลคู่สัญญาที่ได้ร่วมส่งมอบบริการทางการแพทย์อันยอดเยี่ยมให้แก่ลูกค้าทั่วประเทศ
+2025-02-26 09:43:03,037 - INFO - Successfully parsed article: ฟอลคอนประกันภัย มอบสินไหมทดแทนประกันภัยอุบัติเหตุส่วนบุคคล พร้อมเพิ่มทุนคุ้มครอง 25% โดยไม่มีค่าใช้จ่าย รวม 5 ล้านบาท
+2025-02-26 09:43:04,219 - INFO - Successfully parsed article: โตเกียวมารีนประกันชีวิต เบี้ยตัวแทนแตะ 6.28 หมื่นล้าน ปี 67 พลิกทำกำไร 364 ล้าน หลังชะลอประกันฯเด็ก สปีดเพิ่มขุนพล 2,000 คน ปลายปีนี้คาดทะลุ 10,000 ล้าน
+2025-02-26 09:43:05,394 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดงาน BKI Staff Party 2025 ในธีม Building Excellence รวมพลังเพื่อสร้างความเป็นเลิศที่โดดเด่นและแตกต่าง
+2025-02-26 09:43:06,574 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดกิจกรรม “โครงการอบอุ่นกับเมืองไทยประกันชีวิต” มอบผ้าห่มอัพไซคลิง แก่โรงเรียนไทยรัฐวิทยา79 (บ้านหนองอาบช้าง)  และโรงเรียนบ้านน้ำตกแม่กลาง จ. เชียงใหม่
+2025-02-26 09:43:07,747 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนนิทรรศการเพื่อเด็กและครอบครัว  เรียนรู้การโอบรับความหลากหลาย ผ่านดนตรีและศิลปะ
+2025-02-26 09:43:08,939 - INFO - Successfully parsed article: BLA กวาดกำไรปี 67 รวม 3,623 ล้านบาท โตพุ่ง 42% เคาะจ่ายปันผลปี 2567 หุ้นละ 0.68 บาท รวม 1,159 ล้านบาท
+2025-02-26 09:43:10,128 - INFO - Successfully parsed article: ธนชาตประกันภัย มอบทุนการศึกษาโรงเรียนกายอุปกรณ์สิรินธรฯ ร่วมผลิตนักกายอุปกรณ์คุณภาพ ต่อเนื่องปีที่ 11 ยกระดับชีวิตให้ผู้พิการ
+2025-02-26 09:43:11,342 - INFO - Successfully parsed article: อลิอันซ์ อยุธยา จัดงาน “MY STYLE CLUB Special” มอบความรู้การลงทุนสำหรับลูกค้าคนพิเศษ
+2025-02-26 09:43:12,533 - INFO - Successfully parsed article: ฟิลลิปประกันชีวิตจัดทริปสุดพิเศษ “จิบชา ชิมไวน์ ดินเนอร์ปาร์ตี้” มอบรางวัลแทนคำขอบคุณตัวแทนยอดเยี่ยม
+2025-02-26 09:43:13,753 - INFO - Successfully parsed article: สมาคมประกันชีวิตไทยเผยเบี้ยประกันภัยรับรวม ปี 67 เติบโต 3.23% คาดการณ์ ปี 68 เติบโต 2-3 %
+2025-02-26 09:43:14,980 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต ใส่ใจพนักงาน จัดแคมเปญต้อนรับวันวาเลนไทน์  ส่งต่อความสุขและความอบอุ่นทั่วทั้งองค์กร
+2025-02-26 09:43:16,132 - INFO - Successfully parsed article: กรุงไทย–แอกซ่า ประกันชีวิต เปิดตัวแคมเปญใหม่ เชิญชวนทุกคน “มาร่วมสร้างและปกป้องความฝันของคุณ” ผ่าน AXA Bucket List.ai
+2025-02-26 09:43:17,350 - INFO - Successfully parsed article: “โรงเรียนคำพ่อสอน” : ต้นแบบแห่งความสำเร็จ สร้างเด็กดี ลดพฤติกรรมเสี่ยง ขยายผลจากระดับประถมสู่มัธยม
+2025-02-26 09:43:18,517 - INFO - Successfully parsed article: ทิพยประกันภัย เปิดตัวบริการทางการเงิน “PayLater” ผ่าน TIPINSURE.COM
+2025-02-26 09:43:19,702 - INFO - Successfully parsed article: เอไอเอ ประเทศไทย จัดงานมอบรางวัล “AIA Hospital Awards 2024” เชิดชูเกียรติสุดยอดโรงพยาบาลคู่สัญญาที่ได้ร่วมส่งมอบบริการทางการแพทย์อันยอดเยี่ยมให้แก่ลูกค้าทั่วประเทศ
+2025-02-26 09:43:19,739 - INFO - Found 30 potential articles on page 2
+2025-02-26 09:43:19,739 - INFO - Kept 30 articles within date range on page 2
+2025-02-26 09:43:19,739 - INFO - Scraping page 3: https://www.innwhy.com/pr-news/page/3
+2025-02-26 09:43:27,412 - INFO - Successfully parsed article: TQM ฉลองครบรอบ 72 ปี กับแคมเปญ “ประกันสำคัญเหมือนอาหารเช้า รู้ว่าดี แต่ก็ละเลย”
+2025-02-26 09:43:30,036 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดสัมมนาให้ความรู้แก่ลูกค้าเพื่อให้เข้าใจถึงความสำคัญของการกำหนดทุนประกันภัยอย่างเหมาะสม
+2025-02-26 09:43:32,817 - INFO - Successfully parsed article: แอกซ่า ส่งเสริมการตระหนักรู้ พร้อมสนับสนุนการป้องกันโรคมะเร็งในประเทศไทย
+2025-02-26 09:43:35,503 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต เปิดตัวบริการเสริมด้านสุขภาพใหม่ “BLA Health Butler” “ใส่ใจ” พาผู้สูงวัยไปหาหมอ
+2025-02-26 09:43:38,108 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดกิจกรรม CSR ทำก้อนเห็ดมอบให้กับโรงเรียนในเขตอำเภอปากช่อง จังหวัดนครราชสีมา
+2025-02-26 09:43:40,884 - INFO - Successfully parsed article: “TIPปันรัก #6 LOVE ON TRACK ฉึกฉักไปตามราง เดินทางไปตามรัก”
+2025-02-26 09:43:43,834 - INFO - Successfully parsed article: คณะการท่องเที่ยวฯ DPU จัดแข่งขันทักษะท่องเที่ยว-โรงแรม-อาหาร ครั้งที่ 1 ภายใต้หัวข้อ “Soft Power ท่องเที่ยวเสน่ห์ไทย” วอศ.เพชรบุรี -ร.ร.สมุทรสาครฯ คว้าแชมป์ไปครอง
+2025-02-26 09:43:46,778 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนเครื่องอุปโภค – บริโภค  “หอบรักมาเติมฝัน ปันสุขเพื่อเด็กแม่สะเรียง”
+2025-02-26 09:43:49,647 - INFO - Successfully parsed article: Culture Camp Connect รวมพลัง แชร์แนวคิด ธุรกิจเติบโตได้อย่างยั่งยืน เมื่อขับเคลื่อนด้วยเจตนารมณ์
+2025-02-26 09:43:52,863 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย แต่งตั้ง นิติพงษ์ ปรัชญานิมิต ดำรงตำแหน่ง ประธานเจ้าหน้าที่บริหารสายงานลูกค้าและการตลาด
+2025-02-26 09:43:55,410 - INFO - Successfully parsed article: OCEAN LIFE ยกระดับการให้บริการลูกค้าประกันสุขภาพ จัดพิธีมอบรางวัลเชิดชูเกียรติสุดยอดสถานพยาบาลเครือข่าย “OCEAN LIFE Hospital Awards 2024”
+2025-02-26 09:43:57,997 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต รับรางวัล Best Health Insurance Product in Thailand 2024
+2025-02-26 09:44:00,789 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต มอบรถประจำตำแหน่ง “The Executive Car” แก่ตัวแทนคุณภาพ
+2025-02-26 09:44:03,656 - INFO - Successfully parsed article: ธนชาตประกันภัย ส่ง “ประกันภัยอุบัติเหตุ พีเอ แทนรัก”  เป็นของขวัญแทนใจบอกรักกันวันวาเลนไทน์
+2025-02-26 09:44:06,553 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย เดินเกมรุกช่องทางตัวแทนโดยจัดฝึกอบรมหลักสูตร PRUSmart Agent ที่จังหวัดอุดรธานี
+2025-02-26 09:44:07,713 - INFO - Successfully parsed article: TQM ฉลองครบรอบ 72 ปี กับแคมเปญ “ประกันสำคัญเหมือนอาหารเช้า รู้ว่าดี แต่ก็ละเลย”
+2025-02-26 09:44:08,853 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดสัมมนาให้ความรู้แก่ลูกค้าเพื่อให้เข้าใจถึงความสำคัญของการกำหนดทุนประกันภัยอย่างเหมาะสม
+2025-02-26 09:44:09,969 - INFO - Successfully parsed article: แอกซ่า ส่งเสริมการตระหนักรู้ พร้อมสนับสนุนการป้องกันโรคมะเร็งในประเทศไทย
+2025-02-26 09:44:11,272 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต เปิดตัวบริการเสริมด้านสุขภาพใหม่ “BLA Health Butler” “ใส่ใจ” พาผู้สูงวัยไปหาหมอ
+2025-02-26 09:44:12,463 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดกิจกรรม CSR ทำก้อนเห็ดมอบให้กับโรงเรียนในเขตอำเภอปากช่อง จังหวัดนครราชสีมา
+2025-02-26 09:44:13,645 - INFO - Successfully parsed article: “TIPปันรัก #6 LOVE ON TRACK ฉึกฉักไปตามราง เดินทางไปตามรัก”
+2025-02-26 09:44:14,839 - INFO - Successfully parsed article: คณะการท่องเที่ยวฯ DPU จัดแข่งขันทักษะท่องเที่ยว-โรงแรม-อาหาร ครั้งที่ 1 ภายใต้หัวข้อ “Soft Power ท่องเที่ยวเสน่ห์ไทย” วอศ.เพชรบุรี -ร.ร.สมุทรสาครฯ คว้าแชมป์ไปครอง
+2025-02-26 09:44:15,990 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนเครื่องอุปโภค – บริโภค  “หอบรักมาเติมฝัน ปันสุขเพื่อเด็กแม่สะเรียง”
+2025-02-26 09:44:17,176 - INFO - Successfully parsed article: Culture Camp Connect รวมพลัง แชร์แนวคิด ธุรกิจเติบโตได้อย่างยั่งยืน เมื่อขับเคลื่อนด้วยเจตนารมณ์
+2025-02-26 09:44:18,382 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย แต่งตั้ง นิติพงษ์ ปรัชญานิมิต ดำรงตำแหน่ง ประธานเจ้าหน้าที่บริหารสายงานลูกค้าและการตลาด
+2025-02-26 09:44:19,574 - INFO - Successfully parsed article: OCEAN LIFE ยกระดับการให้บริการลูกค้าประกันสุขภาพ จัดพิธีมอบรางวัลเชิดชูเกียรติสุดยอดสถานพยาบาลเครือข่าย “OCEAN LIFE Hospital Awards 2024”
+2025-02-26 09:44:20,741 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต รับรางวัล Best Health Insurance Product in Thailand 2024
+2025-02-26 09:44:21,916 - INFO - Successfully parsed article: SE Life อาคเนย์ประกันชีวิต มอบรถประจำตำแหน่ง “The Executive Car” แก่ตัวแทนคุณภาพ
+2025-02-26 09:44:23,074 - INFO - Successfully parsed article: ธนชาตประกันภัย ส่ง “ประกันภัยอุบัติเหตุ พีเอ แทนรัก”  เป็นของขวัญแทนใจบอกรักกันวันวาเลนไทน์
+2025-02-26 09:44:24,230 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย เดินเกมรุกช่องทางตัวแทนโดยจัดฝึกอบรมหลักสูตร PRUSmart Agent ที่จังหวัดอุดรธานี
+2025-02-26 09:44:24,266 - INFO - Found 30 potential articles on page 3
+2025-02-26 09:44:24,266 - INFO - Kept 30 articles within date range on page 3
+2025-02-26 09:44:24,266 - INFO - Total articles scraped: 90
+2025-02-26 09:44:24,275 - INFO - Successfully saved 90 articles to output/scraped_articles.csv
+2025-02-26 09:44:24,275 - INFO - Scraping process completed successfully
+2025-02-26 15:25:16,794 - INFO - Starting scrape of PR news section: https://www.innwhy.com/pr-news/
+2025-02-26 15:25:16,794 - INFO - Scraping page 1: https://www.innwhy.com/pr-news/
+2025-02-26 15:25:19,376 - INFO - Successfully parsed article: คปภ. เร่งบูรณาการให้ความช่วยเหลือด้านประกันภัยอย่างเต็มที่ กรณี “รถบัสศึกษาดูงานประสบอุบัติเหตุ” มีผู้เสียชีวิต 18 ราย บาดเจ็บ 31 ราย ที่จังหวัดปราจีนบุรี
+2025-02-26 15:25:20,479 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย จับมือ โรงพยาบาลในเครือบางปะกอก ประกาศความร่วมมือ ยกระดับการบริการด้านสุขภาพให้กับลูกค้า
+2025-02-26 15:25:21,587 - INFO - Successfully parsed article: ไทยประกันชีวิต ชู “TLI” Sustainability Strategy ผลักดันองค์กรสู่การเป็นบริษัทประกันชีวิตแห่งความยั่งยืน
+2025-02-26 15:25:22,701 - INFO - Successfully parsed article: THRE ผลงานปี 67 ท็อปฟอร์ม  กำไรสุทธิ 245 ลบ. ล้างขาดทุนสะสมเกลี้ยงพอร์ต  ส่งซิกปี 68 แนวโน้มธุรกิจเติบโตสดใสต่อเนื่อง พร้อมจ่ายเงินปันผล
+2025-02-26 15:25:23,798 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดสัมมนา MUANGTHAI WEALTH MASTER 2025   เปิดมุมมอง “โอกาสและความเสี่ยง ในยุคของการเปลี่ยนแปลง”
+2025-02-26 15:25:24,902 - INFO - Successfully parsed article: วิริยะประกันภัย ผนึก 4 แบรนด์ธุรกิจสัตว์เลี้ยง  มอบสิทธิพิเศษลูกค้า สอดรับเทรนด์ Pet Parent
+2025-02-26 15:25:25,996 - INFO - Successfully parsed article: ชับบ์ ไลฟ์ ประกันชีวิต รุกตลาดยูนิต ลิงค์ ส่งผลิตภัณฑ์ “ซูเปอร์ โพรเทค ลิงค์” ที่ให้อิสระการลงทุนตอบโจทย์ไลฟ์สไตล์ทุกช่วงจังหวะของชีวิต
+2025-02-26 15:25:28,280 - INFO - Successfully parsed article: กรุงไทย-แอกซ่า ประกันชีวิต ในฐานะพันธมิตรหลักของสโมสรลิเวอร์พูล  มอบประสบการณ์สุดพิเศษแก่ลูกค้า เอาใจคอลูกหนัง  พาชมแมตช์ว่าที่แชมป์ ระหว่าง ลิเวอร์พูล-แมนเชสเตอร์ซิตี้
+2025-02-26 15:25:29,398 - INFO - Successfully parsed article: เงินติดล้อ จัดกิจกรรม TIDLOR Culture Wow ให้กับ 9 บริษัทชั้นนำของประเทศไทย
+2025-02-26 15:25:30,513 - INFO - Successfully parsed article: กองทุนประกันชีวิต ร่วมงาน THAIFA BOOSTER CLUB EP.6 แนะนำบทบาทออกบูธประชาสัมพันธ์องค์กร
+2025-02-26 15:25:32,883 - INFO - Successfully parsed article: THAIFA จุดระเบิดวิชาการต้อนรับปี 2568 “Now & Future เริ่มต้นปีงูด้วยความรู้เท่าทัน” กับกิจกรรม THAIFA BOOSTER CLUB ครั้งที่ 6 ผ่านประสบการณ์สุดยอด 3 วิทยากร แชร์ตรงผู้ร่วมงานกว่า 300 คน
+2025-02-26 15:25:35,134 - INFO - Successfully parsed article: วิริยะประกันภัย มอบรางวัลเวทีคนเก่งคณิตศาสตร์ ปีที่ 18
+2025-02-26 15:25:37,372 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต จัดแคมเปญ “BLA ใส่ใจคนโสด เปิดโหมดแฮปปี้” เดินสายเติมความอบอุ่นแบบใจฟูรับวันวาเลนไทน์
+2025-02-26 15:25:39,633 - INFO - Successfully parsed article: THREL กางแผนปี 68 ก้าวสู่ Road to Quality  ปั้นพอร์ตคุณภาพอัพการเติบโต  เปิดผลงานปี 67 เบี้ยรับโตทะลุ 4.5 พันลบ.
+2025-02-26 15:25:41,921 - INFO - Successfully parsed article: สถาบันประกันภัยไทย เดินสาย จ.ขอนแก่น สร้างความร่วมมือด้านการพัฒนาบุคลากรประกันภัย ผลักดันการเรียนรู้ผ่าน LMS
+2025-02-26 15:25:43,032 - INFO - Successfully parsed article: คปภ. เร่งบูรณาการให้ความช่วยเหลือด้านประกันภัยอย่างเต็มที่ กรณี “รถบัสศึกษาดูงานประสบอุบัติเหตุ” มีผู้เสียชีวิต 18 ราย บาดเจ็บ 31 ราย ที่จังหวัดปราจีนบุรี
+2025-02-26 15:25:44,126 - INFO - Successfully parsed article: พรูเด็นเชียล ประเทศไทย จับมือ โรงพยาบาลในเครือบางปะกอก ประกาศความร่วมมือ ยกระดับการบริการด้านสุขภาพให้กับลูกค้า
+2025-02-26 15:25:45,243 - INFO - Successfully parsed article: ไทยประกันชีวิต ชู “TLI” Sustainability Strategy ผลักดันองค์กรสู่การเป็นบริษัทประกันชีวิตแห่งความยั่งยืน
+2025-02-26 15:25:46,331 - INFO - Successfully parsed article: THRE ผลงานปี 67 ท็อปฟอร์ม  กำไรสุทธิ 245 ลบ. ล้างขาดทุนสะสมเกลี้ยงพอร์ต  ส่งซิกปี 68 แนวโน้มธุรกิจเติบโตสดใสต่อเนื่อง พร้อมจ่ายเงินปันผล
+2025-02-26 15:25:47,441 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดสัมมนา MUANGTHAI WEALTH MASTER 2025   เปิดมุมมอง “โอกาสและความเสี่ยง ในยุคของการเปลี่ยนแปลง”
+2025-02-26 15:25:48,547 - INFO - Successfully parsed article: วิริยะประกันภัย ผนึก 4 แบรนด์ธุรกิจสัตว์เลี้ยง  มอบสิทธิพิเศษลูกค้า สอดรับเทรนด์ Pet Parent
+2025-02-26 15:25:49,653 - INFO - Successfully parsed article: ชับบ์ ไลฟ์ ประกันชีวิต รุกตลาดยูนิต ลิงค์ ส่งผลิตภัณฑ์ “ซูเปอร์ โพรเทค ลิงค์” ที่ให้อิสระการลงทุนตอบโจทย์ไลฟ์สไตล์ทุกช่วงจังหวะของชีวิต
+2025-02-26 15:25:50,775 - INFO - Successfully parsed article: กรุงไทย-แอกซ่า ประกันชีวิต ในฐานะพันธมิตรหลักของสโมสรลิเวอร์พูล  มอบประสบการณ์สุดพิเศษแก่ลูกค้า เอาใจคอลูกหนัง  พาชมแมตช์ว่าที่แชมป์ ระหว่าง ลิเวอร์พูล-แมนเชสเตอร์ซิตี้
+2025-02-26 15:25:51,883 - INFO - Successfully parsed article: เงินติดล้อ จัดกิจกรรม TIDLOR Culture Wow ให้กับ 9 บริษัทชั้นนำของประเทศไทย
+2025-02-26 15:25:52,974 - INFO - Successfully parsed article: กองทุนประกันชีวิต ร่วมงาน THAIFA BOOSTER CLUB EP.6 แนะนำบทบาทออกบูธประชาสัมพันธ์องค์กร
+2025-02-26 15:25:54,072 - INFO - Successfully parsed article: THAIFA จุดระเบิดวิชาการต้อนรับปี 2568 “Now & Future เริ่มต้นปีงูด้วยความรู้เท่าทัน” กับกิจกรรม THAIFA BOOSTER CLUB ครั้งที่ 6 ผ่านประสบการณ์สุดยอด 3 วิทยากร แชร์ตรงผู้ร่วมงานกว่า 300 คน
+2025-02-26 15:25:55,183 - INFO - Successfully parsed article: วิริยะประกันภัย มอบรางวัลเวทีคนเก่งคณิตศาสตร์ ปีที่ 18
+2025-02-26 15:25:56,289 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต จัดแคมเปญ “BLA ใส่ใจคนโสด เปิดโหมดแฮปปี้” เดินสายเติมความอบอุ่นแบบใจฟูรับวันวาเลนไทน์
+2025-02-26 15:25:57,383 - INFO - Successfully parsed article: THREL กางแผนปี 68 ก้าวสู่ Road to Quality  ปั้นพอร์ตคุณภาพอัพการเติบโต  เปิดผลงานปี 67 เบี้ยรับโตทะลุ 4.5 พันลบ.
+2025-02-26 15:25:58,489 - INFO - Successfully parsed article: สถาบันประกันภัยไทย เดินสาย จ.ขอนแก่น สร้างความร่วมมือด้านการพัฒนาบุคลากรประกันภัย ผลักดันการเรียนรู้ผ่าน LMS
+2025-02-26 15:25:58,529 - INFO - Found 30 potential articles on page 1
+2025-02-26 15:25:58,529 - INFO - Kept 30 articles within date range on page 1
+2025-02-26 15:25:58,529 - INFO - Scraping page 2: https://www.innwhy.com/pr-news/page/2
+2025-02-26 15:26:04,410 - INFO - Successfully parsed article: ทิพยประกันชีวิต ร่วมกิจกรรมCSR มูลนิธิบ้านครูบุญชูเพื่อเด็กพิเศษ
+2025-02-26 15:26:06,717 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดงาน “DM KICK OFF 2025”  ผสานพลังตัวแทนฝ่ายขาย Direct Marketing ทั่วประเทศ
+2025-02-26 15:26:09,067 - INFO - Successfully parsed article: ที ไลฟ์ ประกันชีวิต เปิดตัวความร่วมมือกับ MKP LIFE BROKER รุกขยายช่องทางขายประกันชีวิต
+2025-02-26 15:26:11,453 - INFO - Successfully parsed article: OCEAN LIFE  ก้าวสู่ปีที่ 76 ชูแนวคิด Love Mindset – Love Solution  ใช้ความรักนำไปพบทุกคำตอบของการใช้ชีวิตอย่างมั่นคง มั่นใจ และมีความสุข
+2025-02-26 15:26:13,781 - INFO - Successfully parsed article: กรุงไทย – แอกซ่า ประกันชีวิต จัดกิจกรรมลูกค้าสุดเอ็กซ์คลูซีฟ “The First Ultimate Big Fan by กรุงไทย-แอกซ่า ประกันชีวิต” ปีที่ 4
+2025-02-26 15:26:14,887 - INFO - Successfully parsed article: ประกันภัยไทยวิวัฒน์ เดินหน้าขยายพันธมิตรด้านสุขภาพ  จับมือ ร้านยากรุงเทพ มอบสิทธิประโยชน์ลูกค้า
+2025-02-26 15:26:17,113 - INFO - Successfully parsed article: ฟอลคอนประกันภัย มอบสินไหมทดแทนประกันภัยอุบัติเหตุส่วนบุคคล พร้อมเพิ่มทุนคุ้มครอง 25% โดยไม่มีค่าใช้จ่าย รวม 5 ล้านบาท
+2025-02-26 15:26:19,369 - INFO - Successfully parsed article: โตเกียวมารีนประกันชีวิต เบี้ยตัวแทนแตะ 6.28 หมื่นล้าน ปี 67 พลิกทำกำไร 364 ล้าน หลังชะลอประกันฯเด็ก สปีดเพิ่มขุนพล 2,000 คน ปลายปีนี้คาดทะลุ 10,000 ล้าน
+2025-02-26 15:26:21,777 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดงาน BKI Staff Party 2025 ในธีม Building Excellence รวมพลังเพื่อสร้างความเป็นเลิศที่โดดเด่นและแตกต่าง
+2025-02-26 15:26:23,990 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดกิจกรรม “โครงการอบอุ่นกับเมืองไทยประกันชีวิต” มอบผ้าห่มอัพไซคลิง แก่โรงเรียนไทยรัฐวิทยา79 (บ้านหนองอาบช้าง)  และโรงเรียนบ้านน้ำตกแม่กลาง จ. เชียงใหม่
+2025-02-26 15:26:26,233 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนนิทรรศการเพื่อเด็กและครอบครัว  เรียนรู้การโอบรับความหลากหลาย ผ่านดนตรีและศิลปะ
+2025-02-26 15:26:28,634 - INFO - Successfully parsed article: BLA กวาดกำไรปี 67 รวม 3,623 ล้านบาท โตพุ่ง 42% เคาะจ่ายปันผลปี 2567 หุ้นละ 0.68 บาท รวม 1,159 ล้านบาท
+2025-02-26 15:26:30,944 - INFO - Successfully parsed article: ธนชาตประกันภัย มอบทุนการศึกษาโรงเรียนกายอุปกรณ์สิรินธรฯ ร่วมผลิตนักกายอุปกรณ์คุณภาพ ต่อเนื่องปีที่ 11 ยกระดับชีวิตให้ผู้พิการ
+2025-02-26 15:26:33,346 - INFO - Successfully parsed article: อลิอันซ์ อยุธยา จัดงาน “MY STYLE CLUB Special” มอบความรู้การลงทุนสำหรับลูกค้าคนพิเศษ
+2025-02-26 15:26:35,593 - INFO - Successfully parsed article: ฟิลลิปประกันชีวิตจัดทริปสุดพิเศษ “จิบชา ชิมไวน์ ดินเนอร์ปาร์ตี้” มอบรางวัลแทนคำขอบคุณตัวแทนยอดเยี่ยม
+2025-02-26 15:26:36,718 - INFO - Successfully parsed article: ทิพยประกันชีวิต ร่วมกิจกรรมCSR มูลนิธิบ้านครูบุญชูเพื่อเด็กพิเศษ
+2025-02-26 15:26:37,814 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดงาน “DM KICK OFF 2025”  ผสานพลังตัวแทนฝ่ายขาย Direct Marketing ทั่วประเทศ
+2025-02-26 15:26:38,924 - INFO - Successfully parsed article: ที ไลฟ์ ประกันชีวิต เปิดตัวความร่วมมือกับ MKP LIFE BROKER รุกขยายช่องทางขายประกันชีวิต
+2025-02-26 15:26:40,016 - INFO - Successfully parsed article: OCEAN LIFE  ก้าวสู่ปีที่ 76 ชูแนวคิด Love Mindset – Love Solution  ใช้ความรักนำไปพบทุกคำตอบของการใช้ชีวิตอย่างมั่นคง มั่นใจ และมีความสุข
+2025-02-26 15:26:41,128 - INFO - Successfully parsed article: กรุงไทย – แอกซ่า ประกันชีวิต จัดกิจกรรมลูกค้าสุดเอ็กซ์คลูซีฟ “The First Ultimate Big Fan by กรุงไทย-แอกซ่า ประกันชีวิต” ปีที่ 4
+2025-02-26 15:26:42,226 - INFO - Successfully parsed article: ประกันภัยไทยวิวัฒน์ เดินหน้าขยายพันธมิตรด้านสุขภาพ  จับมือ ร้านยากรุงเทพ มอบสิทธิประโยชน์ลูกค้า
+2025-02-26 15:26:43,331 - INFO - Successfully parsed article: ฟอลคอนประกันภัย มอบสินไหมทดแทนประกันภัยอุบัติเหตุส่วนบุคคล พร้อมเพิ่มทุนคุ้มครอง 25% โดยไม่มีค่าใช้จ่าย รวม 5 ล้านบาท
+2025-02-26 15:26:44,429 - INFO - Successfully parsed article: โตเกียวมารีนประกันชีวิต เบี้ยตัวแทนแตะ 6.28 หมื่นล้าน ปี 67 พลิกทำกำไร 364 ล้าน หลังชะลอประกันฯเด็ก สปีดเพิ่มขุนพล 2,000 คน ปลายปีนี้คาดทะลุ 10,000 ล้าน
+2025-02-26 15:26:45,517 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดงาน BKI Staff Party 2025 ในธีม Building Excellence รวมพลังเพื่อสร้างความเป็นเลิศที่โดดเด่นและแตกต่าง
+2025-02-26 15:26:46,625 - INFO - Successfully parsed article: เมืองไทยประกันชีวิต จัดกิจกรรม “โครงการอบอุ่นกับเมืองไทยประกันชีวิต” มอบผ้าห่มอัพไซคลิง แก่โรงเรียนไทยรัฐวิทยา79 (บ้านหนองอาบช้าง)  และโรงเรียนบ้านน้ำตกแม่กลาง จ. เชียงใหม่
+2025-02-26 15:26:47,745 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนนิทรรศการเพื่อเด็กและครอบครัว  เรียนรู้การโอบรับความหลากหลาย ผ่านดนตรีและศิลปะ
+2025-02-26 15:26:48,864 - INFO - Successfully parsed article: BLA กวาดกำไรปี 67 รวม 3,623 ล้านบาท โตพุ่ง 42% เคาะจ่ายปันผลปี 2567 หุ้นละ 0.68 บาท รวม 1,159 ล้านบาท
+2025-02-26 15:26:49,964 - INFO - Successfully parsed article: ธนชาตประกันภัย มอบทุนการศึกษาโรงเรียนกายอุปกรณ์สิรินธรฯ ร่วมผลิตนักกายอุปกรณ์คุณภาพ ต่อเนื่องปีที่ 11 ยกระดับชีวิตให้ผู้พิการ
+2025-02-26 15:26:51,060 - INFO - Successfully parsed article: อลิอันซ์ อยุธยา จัดงาน “MY STYLE CLUB Special” มอบความรู้การลงทุนสำหรับลูกค้าคนพิเศษ
+2025-02-26 15:26:52,158 - INFO - Successfully parsed article: ฟิลลิปประกันชีวิตจัดทริปสุดพิเศษ “จิบชา ชิมไวน์ ดินเนอร์ปาร์ตี้” มอบรางวัลแทนคำขอบคุณตัวแทนยอดเยี่ยม
+2025-02-26 15:26:52,198 - INFO - Found 30 potential articles on page 2
+2025-02-26 15:26:52,198 - INFO - Kept 30 articles within date range on page 2
+2025-02-26 15:26:52,198 - INFO - Scraping page 3: https://www.innwhy.com/pr-news/page/3
+2025-02-26 15:26:58,077 - INFO - Successfully parsed article: สมาคมประกันชีวิตไทยเผยเบี้ยประกันภัยรับรวม ปี 67 เติบโต 3.23% คาดการณ์ ปี 68 เติบโต 2-3 %
+2025-02-26 15:27:00,333 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต ใส่ใจพนักงาน จัดแคมเปญต้อนรับวันวาเลนไทน์  ส่งต่อความสุขและความอบอุ่นทั่วทั้งองค์กร
+2025-02-26 15:27:02,627 - INFO - Successfully parsed article: กรุงไทย–แอกซ่า ประกันชีวิต เปิดตัวแคมเปญใหม่ เชิญชวนทุกคน “มาร่วมสร้างและปกป้องความฝันของคุณ” ผ่าน AXA Bucket List.ai
+2025-02-26 15:27:03,729 - INFO - Successfully parsed article: “โรงเรียนคำพ่อสอน” : ต้นแบบแห่งความสำเร็จ สร้างเด็กดี ลดพฤติกรรมเสี่ยง ขยายผลจากระดับประถมสู่มัธยม
+2025-02-26 15:27:06,015 - INFO - Successfully parsed article: ทิพยประกันภัย เปิดตัวบริการทางการเงิน “PayLater” ผ่าน TIPINSURE.COM
+2025-02-26 15:27:08,315 - INFO - Successfully parsed article: เอไอเอ ประเทศไทย จัดงานมอบรางวัล “AIA Hospital Awards 2024” เชิดชูเกียรติสุดยอดโรงพยาบาลคู่สัญญาที่ได้ร่วมส่งมอบบริการทางการแพทย์อันยอดเยี่ยมให้แก่ลูกค้าทั่วประเทศ
+2025-02-26 15:27:10,622 - INFO - Successfully parsed article: TQM ฉลองครบรอบ 72 ปี กับแคมเปญ “ประกันสำคัญเหมือนอาหารเช้า รู้ว่าดี แต่ก็ละเลย”
+2025-02-26 15:27:11,735 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดสัมมนาให้ความรู้แก่ลูกค้าเพื่อให้เข้าใจถึงความสำคัญของการกำหนดทุนประกันภัยอย่างเหมาะสม
+2025-02-26 15:27:14,034 - INFO - Successfully parsed article: แอกซ่า ส่งเสริมการตระหนักรู้ พร้อมสนับสนุนการป้องกันโรคมะเร็งในประเทศไทย
+2025-02-26 15:27:16,282 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต เปิดตัวบริการเสริมด้านสุขภาพใหม่ “BLA Health Butler” “ใส่ใจ” พาผู้สูงวัยไปหาหมอ
+2025-02-26 15:27:18,581 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดกิจกรรม CSR ทำก้อนเห็ดมอบให้กับโรงเรียนในเขตอำเภอปากช่อง จังหวัดนครราชสีมา
+2025-02-26 15:27:20,873 - INFO - Successfully parsed article: “TIPปันรัก #6 LOVE ON TRACK ฉึกฉักไปตามราง เดินทางไปตามรัก”
+2025-02-26 15:27:23,180 - INFO - Successfully parsed article: คณะการท่องเที่ยวฯ DPU จัดแข่งขันทักษะท่องเที่ยว-โรงแรม-อาหาร ครั้งที่ 1 ภายใต้หัวข้อ “Soft Power ท่องเที่ยวเสน่ห์ไทย” วอศ.เพชรบุรี -ร.ร.สมุทรสาครฯ คว้าแชมป์ไปครอง
+2025-02-26 15:27:25,561 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนเครื่องอุปโภค – บริโภค  “หอบรักมาเติมฝัน ปันสุขเพื่อเด็กแม่สะเรียง”
+2025-02-26 15:27:27,827 - INFO - Successfully parsed article: Culture Camp Connect รวมพลัง แชร์แนวคิด ธุรกิจเติบโตได้อย่างยั่งยืน เมื่อขับเคลื่อนด้วยเจตนารมณ์
+2025-02-26 15:27:28,946 - INFO - Successfully parsed article: สมาคมประกันชีวิตไทยเผยเบี้ยประกันภัยรับรวม ปี 67 เติบโต 3.23% คาดการณ์ ปี 68 เติบโต 2-3 %
+2025-02-26 15:27:30,051 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต ใส่ใจพนักงาน จัดแคมเปญต้อนรับวันวาเลนไทน์  ส่งต่อความสุขและความอบอุ่นทั่วทั้งองค์กร
+2025-02-26 15:27:31,156 - INFO - Successfully parsed article: กรุงไทย–แอกซ่า ประกันชีวิต เปิดตัวแคมเปญใหม่ เชิญชวนทุกคน “มาร่วมสร้างและปกป้องความฝันของคุณ” ผ่าน AXA Bucket List.ai
+2025-02-26 15:27:32,263 - INFO - Successfully parsed article: “โรงเรียนคำพ่อสอน” : ต้นแบบแห่งความสำเร็จ สร้างเด็กดี ลดพฤติกรรมเสี่ยง ขยายผลจากระดับประถมสู่มัธยม
+2025-02-26 15:27:33,375 - INFO - Successfully parsed article: ทิพยประกันภัย เปิดตัวบริการทางการเงิน “PayLater” ผ่าน TIPINSURE.COM
+2025-02-26 15:27:34,482 - INFO - Successfully parsed article: เอไอเอ ประเทศไทย จัดงานมอบรางวัล “AIA Hospital Awards 2024” เชิดชูเกียรติสุดยอดโรงพยาบาลคู่สัญญาที่ได้ร่วมส่งมอบบริการทางการแพทย์อันยอดเยี่ยมให้แก่ลูกค้าทั่วประเทศ
+2025-02-26 15:27:35,580 - INFO - Successfully parsed article: TQM ฉลองครบรอบ 72 ปี กับแคมเปญ “ประกันสำคัญเหมือนอาหารเช้า รู้ว่าดี แต่ก็ละเลย”
+2025-02-26 15:27:36,688 - INFO - Successfully parsed article: กรุงเทพประกันภัยจัดสัมมนาให้ความรู้แก่ลูกค้าเพื่อให้เข้าใจถึงความสำคัญของการกำหนดทุนประกันภัยอย่างเหมาะสม
+2025-02-26 15:27:37,821 - INFO - Successfully parsed article: แอกซ่า ส่งเสริมการตระหนักรู้ พร้อมสนับสนุนการป้องกันโรคมะเร็งในประเทศไทย
+2025-02-26 15:27:38,931 - INFO - Successfully parsed article: กรุงเทพประกันชีวิต เปิดตัวบริการเสริมด้านสุขภาพใหม่ “BLA Health Butler” “ใส่ใจ” พาผู้สูงวัยไปหาหมอ
+2025-02-26 15:27:40,043 - INFO - Successfully parsed article: กองทุนประกันชีวิตจัดกิจกรรม CSR ทำก้อนเห็ดมอบให้กับโรงเรียนในเขตอำเภอปากช่อง จังหวัดนครราชสีมา
+2025-02-26 15:27:41,145 - INFO - Successfully parsed article: “TIPปันรัก #6 LOVE ON TRACK ฉึกฉักไปตามราง เดินทางไปตามรัก”
+2025-02-26 15:27:42,260 - INFO - Successfully parsed article: คณะการท่องเที่ยวฯ DPU จัดแข่งขันทักษะท่องเที่ยว-โรงแรม-อาหาร ครั้งที่ 1 ภายใต้หัวข้อ “Soft Power ท่องเที่ยวเสน่ห์ไทย” วอศ.เพชรบุรี -ร.ร.สมุทรสาครฯ คว้าแชมป์ไปครอง
+2025-02-26 15:27:43,369 - INFO - Successfully parsed article: วิริยะประกันภัย สนับสนุนเครื่องอุปโภค – บริโภค  “หอบรักมาเติมฝัน ปันสุขเพื่อเด็กแม่สะเรียง”
+2025-02-26 15:27:44,468 - INFO - Successfully parsed article: Culture Camp Connect รวมพลัง แชร์แนวคิด ธุรกิจเติบโตได้อย่างยั่งยืน เมื่อขับเคลื่อนด้วยเจตนารมณ์
+2025-02-26 15:27:44,507 - INFO - Found 30 potential articles on page 3
+2025-02-26 15:27:44,508 - INFO - Kept 30 articles within date range on page 3
+2025-02-26 15:27:44,508 - INFO - Total articles scraped: 90
+2025-02-26 15:27:44,516 - INFO - Successfully saved 90 articles to output/scraped_articles.csv
+2025-02-26 15:27:44,516 - INFO - Scraping process completed successfully
